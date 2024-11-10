@@ -192,7 +192,8 @@ function migrateAccounts() {
     setupEnv
 
     # Process accounts and tokens
-    ACCOUNTS_UNFORMATTED=$(jq '.[] | select(.name!="admin1" and .name!="docker-datacenter" and .isOrg==false) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
+    #ACCOUNTS_UNFORMATTED=$(jq '.[] | select(.name!="admin1" and .name!="docker-datacenter" and .isOrg==false) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
+    ACCOUNTS_UNFORMATTED=$(jq '.[] | select(.isOrg==false) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
     PRD_ORGS_UNFORMATTED=$(jq '.[] | select(.isOrg==true) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
 
     ACCOUNTS=$(echo "$ACCOUNTS_UNFORMATTED" | jq -r '.[].id')
@@ -219,8 +220,23 @@ function migrateAccounts() {
         fi
 
         echo -e "\n===== Adding the user $(echo "$USER_JSON" | jq -r .[].name) ====="
-        kubectl exec -n '"$DEST_MSR_K8S_NAMESPACE"' '"$POD_NAME"' -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON)"
 
+        #echo "kubectl exec -n '"$DEST_MSR_K8S_NAMESPACE"' '"$POD_NAME"' ... insert ... "$USER_JSON""
+        #kubectl exec -n '"$DEST_MSR_K8S_NAMESPACE"' '"$POD_NAME"' -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON)"
+
+
+
+	# Logic to force overwrite for the user "admin"
+        USER_NAME=$(echo "$USER_JSON" | jq -r ".[].name")
+        if [ "$USER_NAME" == "admin" ]; then
+            echo -e "\n===== Forcing overwrite for user $USER_NAME ====="
+            kubectl exec -n '"$DEST_MSR_K8S_NAMESPACE"' '"$POD_NAME"' -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON, {conflict: \"replace\"})"
+        else
+            echo -e "\n===== Adding the user $USER_NAME ====="
+            kubectl exec -n '"$DEST_MSR_K8S_NAMESPACE"' '"$POD_NAME"' -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON)"
+        fi
+
+        
         C_TOKEN=$(jq ".[] | select(.accountID==\"$USER_ID\")" '"$FILE_DIR"'/client_tokens.json | jq -s)
 
         # Check if C_TOKEN is empty
@@ -245,13 +261,13 @@ function migrateAccounts() {
 
 	LIMIT_TOKEN_COUNT=$(echo "$C_TOKEN" | jq -r .[].token | wc -l)
 
-	if [ "$LIMIT_TOKEN_COUNT" -gt $TOKEN_LIMIT ]; then
-         echo "Token count is greater than 100. Migrating only the tokens labeled after 2024-08..."
-	  FILTERED_TOKENS=$(echo "$C_TOKEN" | jq ".[] | select(.tokenLabel | test(\"2024-(11|10|09|08)\"))" | jq -r .token)
+	if [ "$LIMIT_TOKEN_COUNT" -gt '"$TOKEN_LIMIT"' ]; then
+         echo "Token count is greater than 100. Migrating only the tokens labeled after 2024-07..."
+	  FILTERED_TOKENS=$(echo "$C_TOKEN" | jq ".[] | select(.tokenLabel | test(\"2024-(08|07)\"))" | jq -r .token)
 	  FILTEREED_TOKEN_COUNT=$(echo "$FILTERED_TOKENS" | wc -l)
 
 
-	    if [ "$FILTEREED_TOKEN_COUNT" -gt $TOKEN_LIMIT ]; then
+	    if [ "$FILTEREED_TOKEN_COUNT" -gt '"$TOKEN_LIMIT"' ]; then
               echo "Even the filtered tokens count is $FILTEREED_TOKEN_COUNT, which is greater than 500. Skipping processing..."
               exit 0
            elif [ "$FILTEREED_TOKEN_COUNT" -le 101 ]; then
@@ -286,7 +302,8 @@ function migrateOrgs() {
     setupEnv
 
     # Process accounts and tokens
-    ACCOUNTS_UNFORMATTED=$(jq '.[] | select(.name!="admin" and .name!="docker-datacenter" and .isOrg==false) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
+    #ACCOUNTS_UNFORMATTED=$(jq '.[] | select(.name!="admin1" and .name!="docker-datacenter" and .isOrg==false) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
+    ACCOUNTS_UNFORMATTED=$(jq '.[] | select(.isOrg==false) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
     PRD_ORGS_UNFORMATTED=$(jq '.[] | select(.isOrg==true) | del(.accountLock.lockedTime)' $FILE_DIR/accounts.json | jq -s)
 
     ACCOUNTS=$(echo "$ACCOUNTS_UNFORMATTED" | jq -r '.[].id')

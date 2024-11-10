@@ -1,0 +1,16 @@
+Using the environment variables file .msr_data_migration.env.PSTEST
+
+Warning: Permanently added '3.255.235.204' (ED25519) to the list of known hosts.
+jq: error: Could not open file msr-migration-files/accounts.json: No such file or directory
+jq: error: Could not open file msr-migration-files/accounts.json: No such file or directory
+jq: error: Could not open file msr-migration-files/client_tokens.json: No such file or directory
+====== Stage 2: Creating the accounts and adding their corresponding user tokens ======
+	
+	===== Adding the user  =====
+	{"deleted":0,"errors":0,"inserted":0,"replaced":0,"skipped":0,"unchanged":0}
+	==== This user has 0 tokens =====
+	Token count for user : 
+	No tokens available to process for user . Skipping...
+	jq: error: Could not open file msr-migration-files/accounts.json: No such file or directory
+
+==== Migration completed successfully! ====

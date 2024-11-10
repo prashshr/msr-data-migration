@@ -1,0 +1,21 @@
+Using the environment variables file .msr_data_migration.env.PSTEST
+
+====== Stage 2: Creating the accounts and adding their corresponding user tokens ======
+966d069e-9092-40dd-bd88-386b1e9e1357	
+966d069e-9092-40dd-bd88-386b1e9e1357	===== Adding the user admin =====
+966d069e-9092-40dd-bd88-386b1e9e1357	/bin/bash: -c: line 12: syntax error near unexpected token `('
+966d069e-9092-40dd-bd88-386b1e9e1357	/bin/bash: -c: line 12: `        echo "kubectl exec -n "$DEST_MSR_K8S_NAMESPACE" "$POD_NAME" -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON)""'
+d4642583-cb3c-4e2e-b54e-59e02b66a52b	
+d4642583-cb3c-4e2e-b54e-59e02b66a52b	===== Adding the user migration_user =====
+d4642583-cb3c-4e2e-b54e-59e02b66a52b	/bin/bash: -c: line 12: syntax error near unexpected token `('
+d4642583-cb3c-4e2e-b54e-59e02b66a52b	/bin/bash: -c: line 12: `        echo "kubectl exec -n "$DEST_MSR_K8S_NAMESPACE" "$POD_NAME" -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON)""'
+7c11cea3-1b5a-4671-9777-7f4fd83d969f	
+7c11cea3-1b5a-4671-9777-7f4fd83d969f	===== Adding the user testuser2 =====
+7c11cea3-1b5a-4671-9777-7f4fd83d969f	/bin/bash: -c: line 12: syntax error near unexpected token `('
+7c11cea3-1b5a-4671-9777-7f4fd83d969f	/bin/bash: -c: line 12: `        echo "kubectl exec -n "$DEST_MSR_K8S_NAMESPACE" "$POD_NAME" -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON)""'
+b1e6ac72-5a31-4e0a-b841-6af57f03a5fc	
+b1e6ac72-5a31-4e0a-b841-6af57f03a5fc	===== Adding the user testuser1 =====
+b1e6ac72-5a31-4e0a-b841-6af57f03a5fc	/bin/bash: -c: line 12: syntax error near unexpected token `('
+b1e6ac72-5a31-4e0a-b841-6af57f03a5fc	/bin/bash: -c: line 12: `        echo "kubectl exec -n "$DEST_MSR_K8S_NAMESPACE" "$POD_NAME" -- node --no-deprecation rethinkdb.js "r.db(\"enzi\").table(\"accounts\").insert($USER_JSON)""'
+
+==== Migration completed successfully! ====

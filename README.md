@@ -3,6 +3,7 @@
 
 The MSR Data Migration script facilitates the migration of accounts, repositories, organizations, tags, and related data between two Mirantis Secure Registries (MSRs).
 
+IMPORTANT: The script does a migration of all data (including replacing the default 'admin' user) to the destination MSR.
 
 ### Image Transfer with Skopeo
 

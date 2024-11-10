@@ -1,0 +1,105 @@
+Using the environment variables file .msr_data_migration.env.PSTEST
+
+Accounts: 966d069e-9092-40dd-bd88-386b1e9e1357
+d4642583-cb3c-4e2e-b54e-59e02b66a52b
+7c11cea3-1b5a-4671-9777-7f4fd83d969f
+b1e6ac72-5a31-4e0a-b841-6af57f03a5fc
+Organizations: 256fc042-39be-412c-86ac-111674a926c6
+ORG_ID: 256fc042-39be-412c-86ac-111674a926c6
+Processing ORG_ID: 256fc042-39be-412c-86ac-111674a926c6
+ORG_JSON: [
+  {
+    "accountLock": {
+      "failures": 0,
+      "locked": false
+    },
+    "adminSyncConfig": {
+      "allowNonLdap": false,
+      "enableSync": false,
+      "groupDN": "",
+      "groupMemberAttr": "",
+      "searchBaseDN": "",
+      "searchFilter": "",
+      "searchScopeSubtree": false,
+      "selectGroupMembers": false
+    },
+    "emails": [],
+    "familyName": "",
+    "fullName": "Docker Datacenter",
+    "givenName": "",
+    "id": "256fc042-39be-412c-86ac-111674a926c6",
+    "isActive": false,
+    "isAdmin": false,
+    "isOrg": true,
+    "ldapDN": "",
+    "membersCount": 1,
+    "name": "docker-datacenter",
+    "nameID": "",
+    "onDemand": false,
+    "oneTimePassword": {
+      "enabled": false,
+      "recoveryCodeHashes": [],
+      "secret": ""
+    },
+    "passwordHash": "",
+    "tags": null,
+    "teamsCount": 0
+  }
+]
+Extracted ORG_NAME: docker-datacenter
+
+===== Adding the organization docker-datacenter =====
+Inserting organization: [
+  {
+    "accountLock": {
+      "failures": 0,
+      "locked": false
+    },
+    "adminSyncConfig": {
+      "allowNonLdap": false,
+      "enableSync": false,
+      "groupDN": "",
+      "groupMemberAttr": "",
+      "searchBaseDN": "",
+      "searchFilter": "",
+      "searchScopeSubtree": false,
+      "selectGroupMembers": false
+    },
+    "emails": [],
+    "familyName": "",
+    "fullName": "Docker Datacenter",
+    "givenName": "",
+    "id": "256fc042-39be-412c-86ac-111674a926c6",
+    "isActive": false,
+    "isAdmin": false,
+    "isOrg": true,
+    "ldapDN": "",
+    "membersCount": 1,
+    "name": "docker-datacenter",
+    "nameID": "",
+    "onDemand": false,
+    "oneTimePassword": {
+      "enabled": false,
+      "recoveryCodeHashes": [],
+      "secret": ""
+    },
+    "passwordHash": "",
+    "tags": null,
+    "teamsCount": 0
+  }
+]
+Insert result for: docker-datacenter - {"deleted":0,"errors":1,"first_error":"Duplicate primary key `name`:\n{\n\t\"accountLock\":\t{\n\t\t\"failures\":\t0,\n\t\t\"locked\":\tfalse,\n\t\t\"lockedTime\":\t{\n\t\t\t\"$reql_type$\":\t\"TIME\",\n\t\t\t\"epoch_time\":\t-62135596800,\n\t\t\t\"timezone\":\t\"+00:00\"\n\t\t}\n\t},\n\t\"adminSyncConfig\":\t{\n\t\t\"allowNonLdap\":\tfalse,\n\t\t\"enableSync\":\tfalse,\n\t\t\"groupDN\":\t\"\",\n\t\t\"groupMemberAttr\":\t\"\",\n\t\t\"searchBaseDN\":\t\"\",\n\t\t\"searchFilter\":\t\"\",\n\t\t\"searchScopeSubtree\":\tfalse,\n\t\t\"selectGroupMembers\":\tfalse\n\t},\n\t\"emails\":\t[],\n\t\"familyName\":\t\"\",\n\t\"fullName\":\t\"Docker Datacenter\",\n\t\"givenName\":\t\"\",\n\t\"id\":\t\"7891c70b-5561-4860-b66b-6337ca3b5dcc\",\n\t\"isActive\":\tfalse,\n\t\"isAdmin\":\tfalse,\n\t\"isOrg\":\ttrue,\n\t\"ldapDN\":\t\"\",\n\t\"membersCount\":\t0,\n\t\"name\":\t\"docker-datacenter\",\n\t\"nameID\":\t\"\",\n\t\"onDemand\":\tfalse,\n\t\"oneTimePassword\":\t{\n\t\t\"enabled\":\tfalse,\n\t\t\"recoveryCodeHashes\":\t[],\n\t\t\"secret\":\t\"\"\n\t},\n\t\"passwordHash\":\t\"\",\n\t\"tags\":\tnull,\n\t\"teamsCount\":\t0\n}\n{\n\t\"accountLock\":\t{\n\t\t\"failures\":\t0,\n\t\t\"locked\":\tfalse\n\t},\n\t\"adminSyncConfig\":\t{\n\t\t\"allowNonLdap\":\tfalse,\n\t\t\"enableSync\":\tfalse,\n\t\t\"groupDN\":\t\"\",\n\t\t\"groupMemberAttr\":\t\"\",\n\t\t\"searchBaseDN\":\t\"\",\n\t\t\"searchFilter\":\t\"\",\n\t\t\"searchScopeSubtree\":\tfalse,\n\t\t\"selectGroupMembers\":\tfalse\n\t},\n\t\"emails\":\t[],\n\t\"familyName\":\t\"\",\n\t\"fullName\":\t\"Docker Datacenter\",\n\t\"givenName\":\t\"\",\n\t\"id\":\t\"256fc042-39be-412c-86ac-111674a926c6\",\n\t\"isActive\":\tfalse,\n\t\"isAdmin\":\tfalse,\n\t\"isOrg\":\ttrue,\n\t\"ldapDN\":\t\"\",\n\t\"membersCount\":\t1,\n\t\"name\":\t\"docker-datacenter\",\n\t\"nameID\":\t\"\",\n\t\"onDemand\":\tfalse,\n\t\"oneTimePassword\":\t{\n\t\t\"enabled\":\tfalse,\n\t\t\"recoveryCodeHashes\":\t[],\n\t\t\"secret\":\t\"\"\n\t},\n\t\"passwordHash\":\t\"\",\n\t\"tags\":\tnull,\n\t\"teamsCount\":\t0\n}","inserted":0,"replaced":0,"skipped":0,"unchanged":0}
+Inserting membership for organization: [
+  {
+    "orgID": "256fc042-39be-412c-86ac-111674a926c6",
+    "pk": "5e0d561ef555dec31395843acc7d19317787a54d325cdbfc0e396726ec9ca965",
+    "userID": "966d069e-9092-40dd-bd88-386b1e9e1357"
+  }
+]
+Insert result for membership of: docker-datacenter - {"deleted":0,"errors":0,"inserted":1,"replaced":0,"skipped":0,"unchanged":0}
+Inserting team: []
+Insert result for team of: docker-datacenter - {"deleted":0,"errors":0,"inserted":0,"replaced":0,"skipped":0,"unchanged":0}
+Inserting team membership: []
+Insert result for team membership of: docker-datacenter - {"deleted":0,"errors":0,"inserted":0,"replaced":0,"skipped":0,"unchanged":0}
+
+{"deleted":0,"errors":0,"inserted":0,"replaced":0,"skipped":0,"unchanged":0}

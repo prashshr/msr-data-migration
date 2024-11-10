@@ -1,0 +1,145 @@
+[
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:40198",
+    "creatorUA": "admin-docker/27.3.1 go/go1.22.7 git-commit/41ca978 kernel/6.10.11-linuxkit os/linux arch/arm64 UpstreamClient(Docker-Client/27.3.1 \\(darwin\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "d626",
+    "token": "16b61758ef428f35e770cf3c15c4885bf39bee5c1b7d874f4a14a9b155031869",
+    "tokenLabel": "a-966d-2024-11-07 05:19:42.821918526 +0000 UT"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "DTR",
+    "creatorIP": "",
+    "creatorUA": "admin-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0",
+    "generatedBy": "manual",
+    "isActive": true,
+    "lastFour": "1908",
+    "token": "6b1fd33c73e464a02ce33f5981392bc435fd79a2a65d682695e090fc3d257637",
+    "tokenLabel": "copy"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:33406",
+    "creatorUA": "admin-docker/23.0.13 git-commit/16e5094 kernel/5.15.0-1071-aws os/linux arch/amd64 UpstreamClient(Docker-Client/27.3.1 \\(darwin\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "7e98",
+    "token": "aa65f0321bd4ad58d280531d060c819bd4792c07e1eca4b715e1e4f9158615aa",
+    "tokenLabel": "a-966d-2024-11-07 07:04:58.816815056 +0000 UT"
+  },
+  {
+    "accountID": "7c11cea3-1b5a-4671-9777-7f4fd83d969f",
+    "clientID": "DTR",
+    "creatorIP": "",
+    "creatorUA": "admin-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0",
+    "generatedBy": "manual",
+    "isActive": true,
+    "lastFour": "f720",
+    "token": "9339fcad91a0351e5127d9ccd523084f10731c9e35d02daa2f55b2ef326289dc",
+    "tokenLabel": "testuser-testtoken-1"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "DTR",
+    "creatorIP": "",
+    "creatorUA": "admin-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0",
+    "generatedBy": "manual",
+    "isActive": true,
+    "lastFour": "3434",
+    "token": "d1dc526e8e768a27e9190bedb67395699cd79ce7bee1bf61809d9b795cab23e0",
+    "tokenLabel": "test"
+  },
+  {
+    "accountID": "b1e6ac72-5a31-4e0a-b841-6af57f03a5fc",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:48918",
+    "creatorUA": "testuser1-docker/23.0.13 git-commit/16e5094 kernel/5.15.0-1071-aws os/linux arch/amd64 UpstreamClient(Docker-Client/19.03.15 \\(linux\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "4656",
+    "token": "6f6da13a22670f154a15521bfbd379bdfccf772b543fce889185a9c763b0d6e3",
+    "tokenLabel": "a-b1e6-2024-11-07 08:19:34.259228979 +0000 UT"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:60768",
+    "creatorUA": "admin-docker/23.0.13 git-commit/16e5094 kernel/5.15.0-1071-aws os/linux arch/amd64 UpstreamClient(Docker-Client/19.03.15 \\(linux\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "f8db",
+    "token": "98d0bf335feea4c3ee7ab1a4cadb2bc38b60ec5d7fba152b934fa204438be0f0",
+    "tokenLabel": "a-966d-2024-11-07 05:29:33.048542992 +0000 UT"
+  },
+  {
+    "accountID": "d4642583-cb3c-4e2e-b54e-59e02b66a52b",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:55286",
+    "creatorUA": "migration_user-docker/23.0.13 git-commit/16e5094 kernel/5.15.0-1071-aws os/linux arch/amd64 UpstreamClient(Docker-Client/27.3.1 \\(darwin\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "9580",
+    "token": "48aacad4350fee985a91e4a03f3c3dd6675dc811498bf4303a3fe320429f6d63",
+    "tokenLabel": "a-d464-2024-11-07 08:31:41.135554499 +0000 UT"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:53800",
+    "creatorUA": "admin-docker/23.0.13 git-commit/16e5094 kernel/5.15.0-1071-aws os/linux arch/amd64 UpstreamClient(Docker-Client/19.03.15 \\(linux\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "7329",
+    "token": "b55a2b2044e1101b9e9be60ba47f4c8846e6b1c8dd49a5b3261d3e4e22a47320",
+    "tokenLabel": "a-966d-2024-11-07 05:30:00.973454837 +0000 UT"
+  },
+  {
+    "accountID": "d4642583-cb3c-4e2e-b54e-59e02b66a52b",
+    "clientID": "DTR",
+    "creatorIP": "",
+    "creatorUA": "admin-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0",
+    "generatedBy": "manual",
+    "isActive": true,
+    "lastFour": "e4e1",
+    "token": "e4215a836e50283de736ef9a908f5241d0cea9af9adaa83a06e073065c2eab8d",
+    "tokenLabel": "migration"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "DTR",
+    "creatorIP": "",
+    "creatorUA": "admin-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0",
+    "generatedBy": "manual",
+    "isActive": true,
+    "lastFour": "110a",
+    "token": "cb8b47ea8e464a70eecd41bc9b273fff58de8ad9d14c33c581ad037381521b27",
+    "tokenLabel": "testtoken"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:56454",
+    "creatorUA": "admin-docker/23.0.13 git-commit/16e5094 kernel/5.15.0-1071-aws os/linux arch/amd64 UpstreamClient(Docker-Client/27.3.1 \\(darwin\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "cfce",
+    "token": "ad03ea3cf34b5341ef1c5ccf834246f4dd459a2830e51f805ad072fb9cb12275",
+    "tokenLabel": "a-966d-2024-11-07 10:43:07.315984853 +0000 UT"
+  },
+  {
+    "accountID": "966d069e-9092-40dd-bd88-386b1e9e1357",
+    "clientID": "docker",
+    "creatorIP": "10.1.0.13:50372",
+    "creatorUA": "admin-docker/23.0.13 git-commit/16e5094 kernel/5.15.0-1071-aws os/linux arch/amd64 UpstreamClient(Docker-Client/27.3.1 \\(darwin\\))",
+    "generatedBy": "auto",
+    "isActive": true,
+    "lastFour": "6ebf",
+    "token": "cd1082fdb7c385b0a1c2328548fc1f491c1f1bfa2503ad77f306a2829fdf5a42",
+    "tokenLabel": "a-966d-2024-11-07 05:26:45.960637752 +0000 UT"
+  }
+]

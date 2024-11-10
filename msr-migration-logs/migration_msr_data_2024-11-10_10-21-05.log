@@ -1,0 +1,22 @@
+Using the environment variables file .msr_data_migration.env.PSTEST
+
+Invalid option: -
+Usage: /msr-migration/bin/msr_data_migration [OPTIONS]
+
+Options:
+  -F, --files          Create required migration files (must be run first).
+  -a, --accounts       Migrate user accounts and their tokens.
+  -o, --orgs           Migrate organizations, teams, and memberships.
+  -r, --repos          Migrate repositories.
+  -t, --tags           Migrate repository tags and associated images.
+  -L, --list-tags      List all tags from 'tags.json'.
+  -A, --migrate-all    Perform all migrations sequentially (requires '-F' first).
+  -h, --help           Display this help message.
+
+Requirements:
+- Passwordless SSH access to source MKE and DTR nodes.
+- Destination K8s environment kubeconfig.
+- Username/password/token to access source and destination MSRs.
+- A running rethinkdb-cli pod on the destination MSR.
+
+Note: Run with '-F' to generate migration files before using other options.

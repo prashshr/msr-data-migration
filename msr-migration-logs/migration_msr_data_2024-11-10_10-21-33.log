@@ -1,0 +1,1029 @@
+Using the environment variables file .msr_data_migration.env.PSTEST
+
+
+===== Below are the list of tags, that would be migrated ======
+     1	testrepo-1:v6
+     2	testrepo-1:v1
+     3	testrepo-1:v4
+     4	testrepo-1:v10
+     5	testrepo-1:v7
+     6	testrepo-2:v1
+     7	testrepo-1:v5
+     8	testrepo-1:v3
+     9	testrepo-2:v4
+    10	testrepo-4:v7
+    11	testrepo-1:v8
+    12	testrepo-1:v2
+    13	testrepo-2:v5
+    14	testrepo-3:v1
+    15	testrepo-1:v9
+    16	testrepo-2:v3
+    17	testrepo-2:v8
+    18	testrepo-5:v10
+    19	testrepo-2:v10
+    20	testrepo-2:v2
+    21	testrepo-2:v9
+    22	testrepo-3:v10
+    23	testrepo-2:v7
+    24	testrepo-3:v2
+    25	testrepo-3:v4
+    26	testrepo-5:v3
+    27	testrepo-2:v6
+    28	testrepo-3:v3
+    29	testrepo-3:v5
+    30	testrepo-4:v6
+    31	testrepo-3:v6
+    32	testrepo-4:v10
+    33	testrepo-3:v8
+    34	testrepo-1:v6
+    35	testrepo-3:v7
+    36	testrepo-4:v5
+    37	testrepo-3:v9
+    38	testrepo-5:v2
+    39	testrepo-4:v2
+    40	testrepo-4:v4
+    41	testrepo-5:v7
+    42	testrepo-2:v4
+    43	testrepo-4:v3
+    44	testrepo-4:v9
+    45	testrepo-4:v1
+    46	testrepo-1:v7
+    47	testrepo-5:v5
+    48	testrepo-4:v8
+    49	testrepo-1:v1
+    50	testrepo-3:v5
+    51	testrepo-5:v4
+    52	testrepo-5:v8
+    53	testrepo-5:v6
+    54	testrepo-2:v10
+    55	testrepo-1:v2
+    56	testrepo-5:v1
+    57	testrepo-2:v8
+    58	testrepo-3:v9
+    59	testrepo-1:06112024_amd64_aflac
+    60	testrepo-1:06112024
+    61	testrepo-1:06112024_amd64
+    62	testrepo-2:v5
+    63	testrepo-2:v3
+    64	testrepo-5:v9
+    65	testrepo-3:v1
+    66	testrepo-5:v10
+    67	testrepo-1:06112024_arm64
+    68	testrepo-1:v5
+    69	testrepo-1:v10
+    70	testrepo-3:v4
+    71	testrepo-3:v3
+    72	testrepo-1:v4
+    73	testrepo-4:v2
+    74	testrepo-1:v3
+    75	testrepo-1:v9
+    76	testrepo-2:v1
+    77	testrepo-3:v8
+    78	testrepo-4:v4
+    79	testrepo-4:v6
+    80	testrepo-1:v8
+    81	testrepo-2:v2
+    82	testrepo-2:v6
+    83	testrepo-2:v9
+    84	testrepo-4:v10
+    85	testrepo-4:v8
+    86	testrepo-5:v3
+    87	testrepo-2:v7
+    88	testrepo-3:v2
+    89	testrepo-3:v6
+    90	testrepo-3:v10
+    91	testrepo-5:v7
+    92	testrepo-3:v7
+    93	testrepo-4:v1
+    94	testrepo-5:v9
+    95	testrepo-4:v3
+    96	testrepo-5:v4
+    97	testrepo-5:v8
+    98	testrepo-4:v5
+    99	testrepo-4:v7
+   100	testrepo-4:v9
+   101	testrepo-5:v2
+   102	testrepo-5:v1
+   103	testrepo-5:v6
+   104	testrepo-5:v5
+You can manually edit the generated 'msr-migration-files/tags.txt' file to remove the unwanted repository:tag.
+
+ Count of tags to be migrated: 104
+Processing list of images:
+admin/testrepo-1:v1
+admin/testrepo-1:v10
+admin/testrepo-1:v2
+admin/testrepo-1:v3
+admin/testrepo-1:v4
+admin/testrepo-1:v5
+admin/testrepo-1:v6
+admin/testrepo-1:v7
+admin/testrepo-1:v8
+admin/testrepo-1:v9
+admin/testrepo-2:v1
+admin/testrepo-2:v10
+admin/testrepo-2:v2
+admin/testrepo-2:v3
+admin/testrepo-2:v4
+admin/testrepo-2:v5
+admin/testrepo-2:v6
+admin/testrepo-2:v7
+admin/testrepo-2:v8
+admin/testrepo-2:v9
+admin/testrepo-3:v1
+admin/testrepo-3:v10
+admin/testrepo-3:v2
+admin/testrepo-3:v3
+admin/testrepo-3:v4
+admin/testrepo-3:v5
+admin/testrepo-3:v6
+admin/testrepo-3:v7
+admin/testrepo-3:v8
+admin/testrepo-3:v9
+admin/testrepo-4:v1
+admin/testrepo-4:v10
+admin/testrepo-4:v2
+admin/testrepo-4:v3
+admin/testrepo-4:v4
+admin/testrepo-4:v5
+admin/testrepo-4:v6
+admin/testrepo-4:v7
+admin/testrepo-4:v8
+admin/testrepo-4:v9
+admin/testrepo-5:v1
+admin/testrepo-5:v10
+admin/testrepo-5:v2
+admin/testrepo-5:v3
+admin/testrepo-5:v4
+admin/testrepo-5:v5
+admin/testrepo-5:v6
+admin/testrepo-5:v7
+admin/testrepo-5:v8
+admin/testrepo-5:v9
+testuser1/testrepo-1:06112024
+testuser1/testrepo-1:06112024_amd64
+testuser1/testrepo-1:06112024_amd64_aflac
+testuser1/testrepo-1:06112024_arm64
+testuser1/testrepo-1:v1
+testuser1/testrepo-1:v10
+testuser1/testrepo-1:v2
+testuser1/testrepo-1:v3
+testuser1/testrepo-1:v4
+testuser1/testrepo-1:v5
+testuser1/testrepo-1:v6
+testuser1/testrepo-1:v7
+testuser1/testrepo-1:v8
+testuser1/testrepo-1:v9
+testuser1/testrepo-2:v1
+testuser1/testrepo-2:v10
+testuser1/testrepo-2:v2
+testuser1/testrepo-2:v3
+testuser1/testrepo-2:v4
+testuser1/testrepo-2:v5
+testuser1/testrepo-2:v6
+testuser1/testrepo-2:v7
+testuser1/testrepo-2:v8
+testuser1/testrepo-2:v9
+testuser1/testrepo-3:v1
+testuser1/testrepo-3:v10
+testuser1/testrepo-3:v2
+testuser1/testrepo-3:v3
+testuser1/testrepo-3:v4
+testuser1/testrepo-3:v5
+testuser1/testrepo-3:v6
+testuser1/testrepo-3:v7
+testuser1/testrepo-3:v8
+testuser1/testrepo-3:v9
+testuser1/testrepo-4:v1
+testuser1/testrepo-4:v10
+testuser1/testrepo-4:v2
+testuser1/testrepo-4:v3
+testuser1/testrepo-4:v4
+testuser1/testrepo-4:v5
+testuser1/testrepo-4:v6
+testuser1/testrepo-4:v7
+testuser1/testrepo-4:v8
+testuser1/testrepo-4:v9
+testuser1/testrepo-5:v1
+testuser1/testrepo-5:v10
+testuser1/testrepo-5:v2
+testuser1/testrepo-5:v3
+testuser1/testrepo-5:v4
+testuser1/testrepo-5:v5
+testuser1/testrepo-5:v6
+testuser1/testrepo-5:v7
+testuser1/testrepo-5:v8
+testuser1/testrepo-5:v9
+SOURCE_MSR_URL: aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com
+DEST_MSR_URL: 3.255.235.204:34034
+testuser1/testrepo-5:v3	Image name: testuser1/testrepo-5:v3
+testuser1/testrepo-5:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v3 to docker://3.255.235.204:34034/testuser1/testrepo-5:v3
+testuser1/testrepo-5:v3	Getting image source signatures
+testuser1/testrepo-5:v3	Copying blob sha256:689e0ad0ec21102755be897b62c1d5306770f13515ae168c4950a568f9bd6bc2
+testuser1/testrepo-5:v3	Copying blob sha256:d4c69f1f31ce1596e2a954a5f7320400945016a9ed126e551015111fb99aa6a6
+testuser1/testrepo-5:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v3	Copying config sha256:9e42fff8e276e36021536614fccf4afc2730ad8cfb107c3ae156126ce5afe1f5
+testuser1/testrepo-5:v3	Writing manifest to image destination
+testuser1/testrepo-5:v9	Image name: testuser1/testrepo-5:v9
+testuser1/testrepo-5:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v9 to docker://3.255.235.204:34034/testuser1/testrepo-5:v9
+testuser1/testrepo-5:v9	Getting image source signatures
+testuser1/testrepo-5:v9	Copying blob sha256:3b1e7eb44bcb239166588151a68cdef51efa4ba2635f5ba12d1217323d2f2ffd
+testuser1/testrepo-5:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v9	Copying blob sha256:b299baaf152c4c9529640c3857b2448f85df4a7922ab9ef0fe915637ff496f7b
+testuser1/testrepo-5:v9	Copying config sha256:1c19b1bb0d3e86d027ec6014b2e91f586db04fb6f59a667df19372af6f7af76f
+testuser1/testrepo-5:v9	Writing manifest to image destination
+testuser1/testrepo-5:v6	Image name: testuser1/testrepo-5:v6
+testuser1/testrepo-5:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v6 to docker://3.255.235.204:34034/testuser1/testrepo-5:v6
+testuser1/testrepo-5:v6	Getting image source signatures
+testuser1/testrepo-5:v6	Copying blob sha256:b4f8dbafb8693b677b3e8909609c40aaf88a00c66cb114e8e3542653faf0d583
+testuser1/testrepo-5:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v6	Copying blob sha256:d1a270835bfa762c8914b9d6f42acdeb774b694c40ad9c3ddc4de09a8761da0e
+testuser1/testrepo-5:v6	Copying config sha256:5f0b1803891d4901c6cbe17bf7e23e0991378f5aba57246fd3de308f410752c7
+testuser1/testrepo-5:v6	Writing manifest to image destination
+testuser1/testrepo-5:v8	Image name: testuser1/testrepo-5:v8
+testuser1/testrepo-5:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v8 to docker://3.255.235.204:34034/testuser1/testrepo-5:v8
+testuser1/testrepo-5:v8	Getting image source signatures
+testuser1/testrepo-5:v8	Copying blob sha256:cad0e526c33860e7ea82fa327a2f43a14fe1caf2a8d94954f42993800550f7e3
+testuser1/testrepo-5:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v8	Copying blob sha256:24a709f12bba39ae703dae275bcb591281186fe4e25d36b60ca4ad575391bac3
+testuser1/testrepo-5:v8	Copying config sha256:9f59bcbb2ea41c2769acd9d33f11c4c18a78dc8f2429896e570e747d72761ac0
+testuser1/testrepo-5:v8	Writing manifest to image destination
+testuser1/testrepo-5:v2	Image name: testuser1/testrepo-5:v2
+testuser1/testrepo-5:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v2 to docker://3.255.235.204:34034/testuser1/testrepo-5:v2
+testuser1/testrepo-5:v2	Getting image source signatures
+testuser1/testrepo-5:v2	Copying blob sha256:54d31abd822a1a9b801d01b0d64a88e6c192f155fe712cfaa819e87c10371dad
+testuser1/testrepo-5:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v2	Copying blob sha256:5d09c702447e8a98bdaae3def0c2f6de3502ec2cb128dafa01a0b010a1a6a717
+testuser1/testrepo-5:v2	Copying config sha256:36948c787639094109509de2a06f8cae83d689882794b16e87c33a192b76d864
+testuser1/testrepo-5:v2	Writing manifest to image destination
+testuser1/testrepo-4:v7	Image name: testuser1/testrepo-4:v7
+testuser1/testrepo-4:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v7 to docker://3.255.235.204:34034/testuser1/testrepo-4:v7
+testuser1/testrepo-4:v7	Getting image source signatures
+testuser1/testrepo-4:v7	Copying blob sha256:804296b12635732e55c3fc72c247f5189c8a02bf4784745cd782b0630d38d3f3
+testuser1/testrepo-4:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v7	Copying blob sha256:bba13910608658ff4d1fd6bff8d0ad3bd8d8bc12f6b36a3ada713936cf655d31
+testuser1/testrepo-4:v7	Copying config sha256:8c0d86045a94844f54f13c63b18c2ff4db08116fc8540fc0308ffe0fdedaa232
+testuser1/testrepo-4:v7	Writing manifest to image destination
+testuser1/testrepo-5:v10	Image name: testuser1/testrepo-5:v10
+testuser1/testrepo-5:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v10 to docker://3.255.235.204:34034/testuser1/testrepo-5:v10
+testuser1/testrepo-5:v10	Getting image source signatures
+testuser1/testrepo-5:v10	Copying blob sha256:05ccb3c5236c5f5ca45f244c4cb9a28455f3a01920b45b1eb51c6cf4d45dc691
+testuser1/testrepo-5:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v10	Copying blob sha256:589a974f0b046044cb291d86eefe48fc2a7e0e7748cb9aad3ca4962fb3c251a6
+testuser1/testrepo-5:v10	Copying config sha256:96775c4181bef3ba4cd46a33ca8c2b28293bfd7d30493815b71f3c67f5bce106
+testuser1/testrepo-5:v10	Writing manifest to image destination
+testuser1/testrepo-5:v1	Image name: testuser1/testrepo-5:v1
+testuser1/testrepo-5:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v1 to docker://3.255.235.204:34034/testuser1/testrepo-5:v1
+testuser1/testrepo-5:v1	Getting image source signatures
+testuser1/testrepo-5:v1	Copying blob sha256:b4c89b7e813a89aa69507ea1fa325d51d455a3cc66217dbb06223fccae117bff
+testuser1/testrepo-5:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v1	Copying blob sha256:d9d68f52b30767916c0a01c00ad69987aae0a426063b456e3322c1588e206100
+testuser1/testrepo-5:v1	Copying config sha256:864412faa639c77253aafbb925714ad69fd520a8e68b5d2783a27a24cc000acd
+testuser1/testrepo-5:v1	Writing manifest to image destination
+testuser1/testrepo-5:v4	Image name: testuser1/testrepo-5:v4
+testuser1/testrepo-5:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v4 to docker://3.255.235.204:34034/testuser1/testrepo-5:v4
+testuser1/testrepo-5:v4	Getting image source signatures
+testuser1/testrepo-5:v4	Copying blob sha256:dec6337d6d8527d906acd29faba9b606554b4ad6cf349f25fab4edbac795ca1c
+testuser1/testrepo-5:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v4	Copying blob sha256:4a3dade22acabad832d03ebf66c5cff887a4ebf4038240b6134ba4fd1f2b4b3e
+testuser1/testrepo-5:v4	Copying config sha256:82c0215a16ceabaa92bf11b84b11a3851bfea8ccfe74e356ec1a8e6c543f4b4c
+testuser1/testrepo-5:v4	Writing manifest to image destination
+testuser1/testrepo-4:v9	Image name: testuser1/testrepo-4:v9
+testuser1/testrepo-4:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v9 to docker://3.255.235.204:34034/testuser1/testrepo-4:v9
+testuser1/testrepo-4:v9	Getting image source signatures
+testuser1/testrepo-4:v9	Copying blob sha256:39359174042ba1d5684d918b0a0ab84292251b7f5d9de52722a4d3afc823b569
+testuser1/testrepo-4:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v9	Copying blob sha256:6a5433b1eb0159f2f153ad7dc3259189603b2efdd191441efbe3285b66ffb637
+testuser1/testrepo-4:v9	Copying config sha256:7552efde8209d8877db87374cc9a2ef5f3c0320e41007f492be8e0d47c41e452
+testuser1/testrepo-4:v9	Writing manifest to image destination
+testuser1/testrepo-4:v8	Image name: testuser1/testrepo-4:v8
+testuser1/testrepo-4:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v8 to docker://3.255.235.204:34034/testuser1/testrepo-4:v8
+testuser1/testrepo-4:v8	Getting image source signatures
+testuser1/testrepo-4:v8	Copying blob sha256:e65488ecd5fb4bad2d11dce45d379f524bfa9a6003d8ce3cabc87e5e40460bc9
+testuser1/testrepo-4:v8	Copying blob sha256:7ed8ce3c7fa6765f046360e6533e5016d888778bcec2b559af031622fbf2516c
+testuser1/testrepo-4:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v8	Copying config sha256:c74f9a0317131a4197d9529809dc02aa8f648dbbaaec1d880f60f852ccd2741b
+testuser1/testrepo-4:v8	Writing manifest to image destination
+testuser1/testrepo-4:v6	Image name: testuser1/testrepo-4:v6
+testuser1/testrepo-4:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v6 to docker://3.255.235.204:34034/testuser1/testrepo-4:v6
+testuser1/testrepo-4:v6	Getting image source signatures
+testuser1/testrepo-4:v6	Copying blob sha256:20f38cf25c148bd102306efbd506dd87284b7217615cad5c503069a5e88cb7b8
+testuser1/testrepo-4:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v6	Copying blob sha256:ef9dd8c204bc1d07dfcd6b1d6e5bdca8620828423f917bdfc455ab5e5aad082c
+testuser1/testrepo-4:v6	Copying config sha256:d6a2f5fccb362b814f887f68b0a2581fe7942b525fe8a6974b9121460590cc80
+testuser1/testrepo-4:v6	Writing manifest to image destination
+testuser1/testrepo-5:v5	Image name: testuser1/testrepo-5:v5
+testuser1/testrepo-5:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v5 to docker://3.255.235.204:34034/testuser1/testrepo-5:v5
+testuser1/testrepo-5:v5	Getting image source signatures
+testuser1/testrepo-5:v5	Copying blob sha256:58085aa577f2eee9f9f53c6264f0c71efa3d3ee97497e69475a36cb9efa60aef
+testuser1/testrepo-5:v5	Copying blob sha256:8f30680af5355bb5ef066b0258361e774fd335fb453b5b97dbd751adc4225578
+testuser1/testrepo-5:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v5	Copying config sha256:3dd5e3ba4a26736db05875fc6df816b6c2323d13fbc0b686619b5633a63a9c5a
+testuser1/testrepo-5:v5	Writing manifest to image destination
+testuser1/testrepo-4:v4	Image name: testuser1/testrepo-4:v4
+testuser1/testrepo-4:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v4 to docker://3.255.235.204:34034/testuser1/testrepo-4:v4
+testuser1/testrepo-4:v4	Getting image source signatures
+testuser1/testrepo-4:v4	Copying blob sha256:65d446821e332639eb554abc0dbb591348c3e8021f037d87c3c96ad3b3e77067
+testuser1/testrepo-4:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v4	Copying blob sha256:012a5f422e2d02ecab5789f1ecc519402a947423264dee12e937a1a7c662ee1b
+testuser1/testrepo-4:v4	Copying config sha256:7356634fee02bb9f425d95c668579b66b4045728e547b1b15a43c24e97de2434
+testuser1/testrepo-4:v4	Writing manifest to image destination
+testuser1/testrepo-4:v3	Image name: testuser1/testrepo-4:v3
+testuser1/testrepo-4:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v3 to docker://3.255.235.204:34034/testuser1/testrepo-4:v3
+testuser1/testrepo-4:v3	Getting image source signatures
+testuser1/testrepo-4:v3	Copying blob sha256:3ba9b1788fce3795ec0b465d42e69cbefae529d9e3c5c2d191339d73c4dbf12e
+testuser1/testrepo-4:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v3	Copying blob sha256:2a30e86fc62c3f264616eb2186f8737bab6bdf2f4be8a706b89f749902716449
+testuser1/testrepo-4:v3	Copying config sha256:7460cbb8e63bf95f5eae319deeb24c5b86887d786885358730c855e90b942fa9
+testuser1/testrepo-4:v3	Writing manifest to image destination
+testuser1/testrepo-4:v5	Image name: testuser1/testrepo-4:v5
+testuser1/testrepo-4:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v5 to docker://3.255.235.204:34034/testuser1/testrepo-4:v5
+testuser1/testrepo-4:v5	Getting image source signatures
+testuser1/testrepo-4:v5	Copying blob sha256:190f77533aa2ded1c89a6c5d7cd14153a26c273420bf4dc2359a3ba5a1a7c80b
+testuser1/testrepo-4:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v5	Copying blob sha256:b578294736852fff47d34bc7ab0fe5f0551322fa5f7bdbc3504625ea759d7928
+testuser1/testrepo-4:v5	Copying config sha256:b9590ec07b5236b5a74cc66123d7402a202090ea5fec537b62ec98fe8eb60749
+testuser1/testrepo-4:v5	Writing manifest to image destination
+testuser1/testrepo-4:v10	Image name: testuser1/testrepo-4:v10
+testuser1/testrepo-4:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v10 to docker://3.255.235.204:34034/testuser1/testrepo-4:v10
+testuser1/testrepo-4:v10	Getting image source signatures
+testuser1/testrepo-4:v10	Copying blob sha256:10d9361a5c9928c5efb55f7bccd2fb560b32137da3739ba8f72dacd97ef5582f
+testuser1/testrepo-4:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v10	Copying blob sha256:ce5288a65173cf78049125e1613712430d4c5f6ab391f080998a4c7bbafd1e7c
+testuser1/testrepo-4:v10	Copying config sha256:a5a75536c462d8f28d8e0a35d688c3bc2c6a8376a3f64bd52a81eada9cb415d4
+testuser1/testrepo-4:v10	Writing manifest to image destination
+testuser1/testrepo-4:v2	Image name: testuser1/testrepo-4:v2
+testuser1/testrepo-4:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v2 to docker://3.255.235.204:34034/testuser1/testrepo-4:v2
+testuser1/testrepo-4:v2	Getting image source signatures
+testuser1/testrepo-4:v2	Copying blob sha256:d5406d4cf7eef476d436afb594e29b647a9bb2accddec53d11b908295d232092
+testuser1/testrepo-4:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v2	Copying blob sha256:c5f0255017e6cc8797a73d0cf894a358725c9feca6fe7ddfb4024cd940c667db
+testuser1/testrepo-4:v2	Copying config sha256:ce5dfefd3391507f672fba34dcb2316498883c18a7fb9e9cd6de1b06da7d818a
+testuser1/testrepo-4:v2	Writing manifest to image destination
+testuser1/testrepo-4:v1	Image name: testuser1/testrepo-4:v1
+testuser1/testrepo-4:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-4:v1 to docker://3.255.235.204:34034/testuser1/testrepo-4:v1
+testuser1/testrepo-4:v1	Getting image source signatures
+testuser1/testrepo-4:v1	Copying blob sha256:91b228ca6d94063d14dcab1024291b934b08e1eab19b98c8b527ac13f8c24f20
+testuser1/testrepo-4:v1	Copying blob sha256:026cca374711788d2d4c1b81589997cf0c5e698a950c184358b21f4b1dd31c22
+testuser1/testrepo-4:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-4:v1	Copying config sha256:986304e0937b75210776602523bd9e9c9d72abf05622fe5e19228e84bc35d66a
+testuser1/testrepo-4:v1	Writing manifest to image destination
+testuser1/testrepo-3:v9	Image name: testuser1/testrepo-3:v9
+testuser1/testrepo-3:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v9 to docker://3.255.235.204:34034/testuser1/testrepo-3:v9
+testuser1/testrepo-3:v9	Getting image source signatures
+testuser1/testrepo-3:v9	Copying blob sha256:878dfff651026bb0b9b0bc34b21c00514ed389a7e5dbb822ee07624c75b26898
+testuser1/testrepo-3:v9	Copying blob sha256:aad9c04e337618f4c02a8d8ab63e4b913bb6ce4e73b3ef1edbec7ea875788ff5
+testuser1/testrepo-3:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v9	Copying config sha256:9a7ae744de114cc66bf440c7cd5c2bce20bf8d3d631e7bccd4a26955503ff178
+testuser1/testrepo-3:v9	Writing manifest to image destination
+testuser1/testrepo-3:v8	Image name: testuser1/testrepo-3:v8
+testuser1/testrepo-3:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v8 to docker://3.255.235.204:34034/testuser1/testrepo-3:v8
+testuser1/testrepo-3:v8	Getting image source signatures
+testuser1/testrepo-3:v8	Copying blob sha256:538096c4c58d9a0b3402c98627d16193f601dd6fd37a84c7a883822001248b04
+testuser1/testrepo-3:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v8	Copying blob sha256:b9c85c7f1e4de90336a8552812dd32fdc0395536b663af2ba476894941fc30d2
+testuser1/testrepo-3:v8	Copying config sha256:dc47335af2c265008b57d66bcd463dff938512cdc47f0c8459ac9593824c46f8
+testuser1/testrepo-3:v8	Writing manifest to image destination
+testuser1/testrepo-3:v7	Image name: testuser1/testrepo-3:v7
+testuser1/testrepo-3:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v7 to docker://3.255.235.204:34034/testuser1/testrepo-3:v7
+testuser1/testrepo-3:v7	Getting image source signatures
+testuser1/testrepo-3:v7	Copying blob sha256:f083bc6eac1195fe83c7220316a3850ae688a680872981842a1796827c949f68
+testuser1/testrepo-3:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v7	Copying blob sha256:d8e53e9d87653d10ff642fa78da0e32cf50f4f9391f914ab9fa074b96d71167b
+testuser1/testrepo-3:v7	Copying config sha256:f710c55f73fb8e118374a746603e5964b9d37aa327f95391525fc8cc05b728c3
+testuser1/testrepo-3:v7	Writing manifest to image destination
+testuser1/testrepo-3:v6	Image name: testuser1/testrepo-3:v6
+testuser1/testrepo-3:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v6 to docker://3.255.235.204:34034/testuser1/testrepo-3:v6
+testuser1/testrepo-3:v6	Getting image source signatures
+testuser1/testrepo-3:v6	Copying blob sha256:126f21ac46eba17c18459b6f42865464facfa6f41bc1f9d26dccad93b194c9f9
+testuser1/testrepo-3:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v6	Copying blob sha256:68954fbd2b28c75446da2a068b2e34dc095d984362e73f4b55d1bc6e7e8cee82
+testuser1/testrepo-3:v6	Copying config sha256:23215e5816f94943409e5288552601e33c666b4832a032a433314b5d6bef759c
+testuser1/testrepo-3:v6	Writing manifest to image destination
+testuser1/testrepo-3:v4	Image name: testuser1/testrepo-3:v4
+testuser1/testrepo-3:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v4 to docker://3.255.235.204:34034/testuser1/testrepo-3:v4
+testuser1/testrepo-3:v4	Getting image source signatures
+testuser1/testrepo-3:v4	Copying blob sha256:cf56cfdc8d08536354d16dc3fedb0c6ad25609c9e91d633ec0aa3f69132513c1
+testuser1/testrepo-3:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v4	Copying blob sha256:738e85a338b753e1ee6d668f17e4f8d6d87ae4e8bf3fbc970b6c51d7d6c48139
+testuser1/testrepo-3:v4	Copying config sha256:07dc845207aa6398e4a6e83ee901907b64561ab1590bb864c5a18bdf421afa87
+testuser1/testrepo-3:v4	Writing manifest to image destination
+testuser1/testrepo-3:v5	Image name: testuser1/testrepo-3:v5
+testuser1/testrepo-3:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v5 to docker://3.255.235.204:34034/testuser1/testrepo-3:v5
+testuser1/testrepo-3:v5	Getting image source signatures
+testuser1/testrepo-3:v5	Copying blob sha256:e44dd52041bf25982d84c870017448f67deccd9fbf6de2290f046fb40083c273
+testuser1/testrepo-3:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v5	Copying blob sha256:66aa96f7788ba3ba66e0f17e0b3262fa7c397d97d9baeadcb07e93ad6f6eb772
+testuser1/testrepo-3:v5	Copying config sha256:e6d6f111f5b7d142a696b629ba4563fdd384d23ec4bf8d0c84a5585ca6ef50e4
+testuser1/testrepo-3:v5	Writing manifest to image destination
+testuser1/testrepo-3:v2	Image name: testuser1/testrepo-3:v2
+testuser1/testrepo-3:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v2 to docker://3.255.235.204:34034/testuser1/testrepo-3:v2
+testuser1/testrepo-3:v2	Getting image source signatures
+testuser1/testrepo-3:v2	Copying blob sha256:a1e54b7948b4ccb02d3f5d4727d03ed203a50aaaf3faa498d3d8de60e27fefd8
+testuser1/testrepo-3:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v2	Copying blob sha256:1cdcec351cc98687d7a19423eeef733b2698a5a6bf865e435aac00172349c8fd
+testuser1/testrepo-3:v2	Copying config sha256:c8b28bdbce3323dda09a63aefe4c8d5774b055cc448b466bc88a8a332e765b2c
+testuser1/testrepo-3:v2	Writing manifest to image destination
+testuser1/testrepo-3:v3	Image name: testuser1/testrepo-3:v3
+testuser1/testrepo-3:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v3 to docker://3.255.235.204:34034/testuser1/testrepo-3:v3
+testuser1/testrepo-3:v3	Getting image source signatures
+testuser1/testrepo-3:v3	Copying blob sha256:0c525d2edc5d322310ad7603760c1eb35872f48ee4650799b7aaa6b85273dbf6
+testuser1/testrepo-3:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v3	Copying blob sha256:77f979e44ae7b89e78e51bbbeed8deff786a69a5d5437aa5ff54ee236e9bc507
+testuser1/testrepo-3:v3	Copying config sha256:c8b641ec6edd31ccfd2727d0e268cb8ee2fb8ed4b4b5bb0a2fadbd38eb3657ad
+testuser1/testrepo-3:v3	Writing manifest to image destination
+testuser1/testrepo-3:v10	Image name: testuser1/testrepo-3:v10
+testuser1/testrepo-3:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v10 to docker://3.255.235.204:34034/testuser1/testrepo-3:v10
+testuser1/testrepo-3:v10	Getting image source signatures
+testuser1/testrepo-3:v10	Copying blob sha256:038eefe0ecbfa26f9cc27c5a9cd2055d62051daddec166c8033b50e890a322d0
+testuser1/testrepo-3:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v10	Copying blob sha256:52a5d162080ca56d6eb1a28a0cc6fac07e667da6c0bd8aa10391b6f116b8f382
+testuser1/testrepo-3:v10	Copying config sha256:8cf461a6af8789e0b9ca6c6c38d437ca805c17f35259f0ef6641a973701f7c65
+testuser1/testrepo-3:v10	Writing manifest to image destination
+testuser1/testrepo-3:v1	Image name: testuser1/testrepo-3:v1
+testuser1/testrepo-3:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-3:v1 to docker://3.255.235.204:34034/testuser1/testrepo-3:v1
+testuser1/testrepo-3:v1	Getting image source signatures
+testuser1/testrepo-3:v1	Copying blob sha256:9f1fd3d45dd37603b4b91e5876eaaa3963ddbe440163b28d642be30d9d0bd092
+testuser1/testrepo-3:v1	Copying blob sha256:f829c65068249103d7a3a61032f5bf55289cbe3f578c7f19a55be6b6e7d8b11b
+testuser1/testrepo-3:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-3:v1	Copying config sha256:346612b2d86c1cc8a8485094fee5112ccdd190290f1a3688f79de5cec497b0c2
+testuser1/testrepo-3:v1	Writing manifest to image destination
+testuser1/testrepo-2:v4	Image name: testuser1/testrepo-2:v4
+testuser1/testrepo-2:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v4 to docker://3.255.235.204:34034/testuser1/testrepo-2:v4
+testuser1/testrepo-2:v4	Getting image source signatures
+testuser1/testrepo-2:v4	Copying blob sha256:3e1bbfcc0153c0b420338ca935524cfc34d5f43ebd3f1be855686f84565ee77f
+testuser1/testrepo-2:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v4	Copying blob sha256:cd14c45f68c42414484e78a6acbaa02f655d63fbfd59470c0f78af78e8f02fa8
+testuser1/testrepo-2:v4	Copying config sha256:eadc664e06b1e652bf30dfd413960f97ee712ccab2dd2e7576a98d6e500442b4
+testuser1/testrepo-2:v4	Writing manifest to image destination
+testuser1/testrepo-2:v2	Image name: testuser1/testrepo-2:v2
+testuser1/testrepo-2:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v2 to docker://3.255.235.204:34034/testuser1/testrepo-2:v2
+testuser1/testrepo-2:v2	Getting image source signatures
+testuser1/testrepo-2:v2	Copying blob sha256:c4cb2df41348c925f4fc1c9de3d41e01c8dba502e42d5decf81e0dc0668c9412
+testuser1/testrepo-2:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v2	Copying blob sha256:4209d2d424dbf1f9681e499ff9cfc33c8d4c532675d4392f66c328de153eba33
+testuser1/testrepo-2:v2	Copying config sha256:5bf6589526de56c141a423f2c40c47202d3139a4481d2c759dbf8046c33ed22b
+testuser1/testrepo-2:v2	Writing manifest to image destination
+testuser1/testrepo-2:v10	Image name: testuser1/testrepo-2:v10
+testuser1/testrepo-2:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v10 to docker://3.255.235.204:34034/testuser1/testrepo-2:v10
+testuser1/testrepo-2:v10	Getting image source signatures
+testuser1/testrepo-2:v10	Copying blob sha256:71380e5a05317d2fe2189d393c6f303d91de6e77f26efea54bb3c3d42e56b24e
+testuser1/testrepo-2:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v10	Copying blob sha256:03cf32557975ba3cf1ad7735ca67a8edbd1268958d03ba53484a33672cee45fa
+testuser1/testrepo-2:v10	Copying config sha256:c11c95a0e3dd8377eb0a61fcdfdcac9025ca0cedc47b4ed9b38876926b0f3a58
+testuser1/testrepo-2:v10	Writing manifest to image destination
+testuser1/testrepo-2:v6	Image name: testuser1/testrepo-2:v6
+testuser1/testrepo-2:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v6 to docker://3.255.235.204:34034/testuser1/testrepo-2:v6
+testuser1/testrepo-2:v6	Getting image source signatures
+testuser1/testrepo-2:v6	Copying blob sha256:b192e1b517b1c7e09f01440610b57da0bd255d010888869b3ae8469776fa1a59
+testuser1/testrepo-2:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v6	Copying blob sha256:2ca95a3b335b5e1af3f18dfd76bf720fb335e798be2f59ab9d7c058dbdd6ef84
+testuser1/testrepo-2:v6	Copying config sha256:2484ea0cb92827f9d1df7cffb5c471149deb2a751caccb2c60627bfd7207cebf
+testuser1/testrepo-2:v6	Writing manifest to image destination
+testuser1/testrepo-2:v3	Image name: testuser1/testrepo-2:v3
+testuser1/testrepo-2:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v3 to docker://3.255.235.204:34034/testuser1/testrepo-2:v3
+testuser1/testrepo-2:v3	Getting image source signatures
+testuser1/testrepo-2:v3	Copying blob sha256:213d05ea46cdf415d65fa2ea416e23253be2f697a038b0cbab4a5e85df6f2e7f
+testuser1/testrepo-2:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v3	Copying blob sha256:aacb2ef22461ee3a754027e08a30db3226279913e1d199816b8a059cf982a011
+testuser1/testrepo-2:v3	Copying config sha256:fa7dfe497f2051567db5aecc2735d78ec7addfa7e5d99b1298e281145c0eacef
+testuser1/testrepo-2:v3	Writing manifest to image destination
+testuser1/testrepo-1:v7	Image name: testuser1/testrepo-1:v7
+testuser1/testrepo-1:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v7 to docker://3.255.235.204:34034/testuser1/testrepo-1:v7
+testuser1/testrepo-1:v7	Getting image source signatures
+testuser1/testrepo-1:v7	Copying blob sha256:b10cb9eac3ab25c7f86fce74219d7aa2766555214ce629de9bebe0e27ac25b19
+testuser1/testrepo-1:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v7	Copying blob sha256:9f56c99026cd645d341dc9a34752a78989f68c45f475730389b24cf86745d146
+testuser1/testrepo-1:v7	Copying config sha256:52f77a5337d6377061e05e1ad20fa645703b9994d9a97695d15eac4639771966
+testuser1/testrepo-1:v7	Writing manifest to image destination
+testuser1/testrepo-2:v1	Image name: testuser1/testrepo-2:v1
+testuser1/testrepo-2:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v1 to docker://3.255.235.204:34034/testuser1/testrepo-2:v1
+testuser1/testrepo-2:v1	Getting image source signatures
+testuser1/testrepo-2:v1	Copying blob sha256:fc245ba34d7d6d0c25cca0f70dc44666e556ce1fda7349eeb571d6a54a7a7fc8
+testuser1/testrepo-2:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v1	Copying blob sha256:a340a2011b6c3146556c3c96c6f90393e5b92c64d9c97efbd3c2b1b5f62d63c0
+testuser1/testrepo-2:v1	Copying config sha256:9709dea1450386e830035997a0dfb3d7b5dc3d3a17d302cf7fa2999829f849e8
+testuser1/testrepo-2:v1	Writing manifest to image destination
+testuser1/testrepo-1:v8	Image name: testuser1/testrepo-1:v8
+testuser1/testrepo-1:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v8 to docker://3.255.235.204:34034/testuser1/testrepo-1:v8
+testuser1/testrepo-1:v8	Getting image source signatures
+testuser1/testrepo-1:v8	Copying blob sha256:c9fc62f554831726da35f094a372ade5a5d44f451f4ae614347abc3ecda8c512
+testuser1/testrepo-1:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v8	Copying blob sha256:86af00e494266a162862a29b91ced3c0d780afea4d0fd84e405d6093d17427cc
+testuser1/testrepo-1:v8	Copying config sha256:6297a2dcd06a61f299811880b8f262bc223272f073bf35d4d21d58ee8706029a
+testuser1/testrepo-1:v8	Writing manifest to image destination
+testuser1/testrepo-2:v7	Image name: testuser1/testrepo-2:v7
+testuser1/testrepo-2:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v7 to docker://3.255.235.204:34034/testuser1/testrepo-2:v7
+testuser1/testrepo-2:v7	Getting image source signatures
+testuser1/testrepo-2:v7	Copying blob sha256:a835c70b7c140a7266143d4be0a12903de43ce90ff86c01c176e257335c33a81
+testuser1/testrepo-2:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v7	Copying blob sha256:5ae76689c635a2dd4d6ebc4bf466119868ba058a54a1840fa4b69997c64837cd
+testuser1/testrepo-2:v7	Copying config sha256:bcbb3c36e4829c5f16b0156a7874e03d7f051ab819746b99359d9f1ad39f8e4a
+testuser1/testrepo-2:v7	Writing manifest to image destination
+testuser1/testrepo-1:v6	Image name: testuser1/testrepo-1:v6
+testuser1/testrepo-1:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v6 to docker://3.255.235.204:34034/testuser1/testrepo-1:v6
+testuser1/testrepo-1:v6	Getting image source signatures
+testuser1/testrepo-1:v6	Copying blob sha256:cc3be55b94ac8e0f854ff8a427e96224e30ea5a29209ca671e6d310d11044e83
+testuser1/testrepo-1:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v6	Copying blob sha256:86db53f05190cc0f78738174bf06fee9e5954786bb3bdc042cdf9237ee7c008f
+testuser1/testrepo-1:v6	Copying config sha256:f214d8a4d402f921056bf22d03d8aee3cef462233362a1bb312b8835a0d4ca83
+testuser1/testrepo-1:v6	Writing manifest to image destination
+testuser1/testrepo-1:v5	Image name: testuser1/testrepo-1:v5
+testuser1/testrepo-1:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v5 to docker://3.255.235.204:34034/testuser1/testrepo-1:v5
+testuser1/testrepo-1:v5	Getting image source signatures
+testuser1/testrepo-1:v5	Copying blob sha256:fc7e22e81f5142d19038c668a50b2e276ea851a0236ca8d54a596fb773e51375
+testuser1/testrepo-1:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v5	Copying blob sha256:d5a05ede075f24534b9e72d20433abe9c746f489d07f41d899dd1965a80ceba2
+testuser1/testrepo-1:v5	Copying config sha256:f03289fa6e9559b1dcae1821c8cc77c970502f72351e4f4231f8dfa27dd67f2c
+testuser1/testrepo-1:v5	Writing manifest to image destination
+testuser1/testrepo-1:v4	Image name: testuser1/testrepo-1:v4
+testuser1/testrepo-1:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v4 to docker://3.255.235.204:34034/testuser1/testrepo-1:v4
+testuser1/testrepo-1:v4	Getting image source signatures
+testuser1/testrepo-1:v4	Copying blob sha256:d2b988de6f74ac050a47cb6ccac4d91de17deba89df41e2cfaa7515da63fc8e8
+testuser1/testrepo-1:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v4	Copying blob sha256:05093239f47c04caa2baa594840005d526312aab9ad1084ec03a1b4a70d2ed0e
+testuser1/testrepo-1:v4	Copying config sha256:f1833f62c7f1e31ce958ecfe51095fdc711241e9cf2f85cbc7da8bda4a4c8d16
+testuser1/testrepo-1:v4	Writing manifest to image destination
+testuser1/testrepo-1:v3	Image name: testuser1/testrepo-1:v3
+testuser1/testrepo-1:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v3 to docker://3.255.235.204:34034/testuser1/testrepo-1:v3
+testuser1/testrepo-1:v3	Getting image source signatures
+testuser1/testrepo-1:v3	Copying blob sha256:7b5e9faafbe48086cfb4969cdd50b1290403d7fa69638e5270de3156c48dbf8e
+testuser1/testrepo-1:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v3	Copying blob sha256:48f88cd671092a25f39a39a6431888f0f85f1fb737fe6013f9531d667321d36f
+testuser1/testrepo-1:v3	Copying config sha256:075312739386488a7e95bef99a38dd7eab6e399a6d367241cff54e609f4122bf
+testuser1/testrepo-1:v3	Writing manifest to image destination
+testuser1/testrepo-1:v2	Image name: testuser1/testrepo-1:v2
+testuser1/testrepo-1:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v2 to docker://3.255.235.204:34034/testuser1/testrepo-1:v2
+testuser1/testrepo-1:v2	Getting image source signatures
+testuser1/testrepo-1:v2	Copying blob sha256:461486ab23db2e914329b1c08f1867ba879fc25cfcf537f06a3b267e3975c3df
+testuser1/testrepo-1:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v2	Copying blob sha256:68ba3a6994cf2753207db6e6a82a2ee028c1528369e0187d8054879456360b83
+testuser1/testrepo-1:v2	Copying config sha256:fccc969dc14536d1e88a644f083bdbe4e58d1ad39580ba9355c3e4fc6d26c6a1
+testuser1/testrepo-1:v2	Writing manifest to image destination
+testuser1/testrepo-1:v1	Image name: testuser1/testrepo-1:v1
+testuser1/testrepo-1:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v1 to docker://3.255.235.204:34034/testuser1/testrepo-1:v1
+testuser1/testrepo-1:v1	Getting image source signatures
+testuser1/testrepo-1:v1	Copying blob sha256:0d342420a5f2d85218995664076342c1bd3fdd9a8ce10bb60ccb7bda8fdb2f4a
+testuser1/testrepo-1:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v1	Copying blob sha256:63f9f9d88235e9a2f2a24302883c111a1631b0f2b50a7f245f41946891a73dcf
+testuser1/testrepo-1:v1	Copying config sha256:97c3c06c5406abbb7af9c17e3d4d4389dedf9de8f0fdda9128c2d152a8e88cc7
+testuser1/testrepo-1:v1	Writing manifest to image destination
+testuser1/testrepo-1:v10	Image name: testuser1/testrepo-1:v10
+testuser1/testrepo-1:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v10 to docker://3.255.235.204:34034/testuser1/testrepo-1:v10
+testuser1/testrepo-1:v10	Getting image source signatures
+testuser1/testrepo-1:v10	Copying blob sha256:cbc30c5d5074e0ff4942df99c5589e0759746740fcce00344aee4a8f260cdda5
+testuser1/testrepo-1:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v10	Copying blob sha256:70b77f25137ce9684cf23ea34722cd45f5815ead8975847d16ea48d81cbb54db
+testuser1/testrepo-1:v10	Copying config sha256:073aee8cca6b7ec159a53ae9f0a3093f01a5ddc99a7622c3433035aba173c8e3
+testuser1/testrepo-1:v10	Writing manifest to image destination
+admin/testrepo-5:v9	Image name: admin/testrepo-5:v9
+admin/testrepo-5:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v9 to docker://3.255.235.204:34034/admin/testrepo-5:v9
+admin/testrepo-5:v9	Getting image source signatures
+admin/testrepo-5:v9	Copying blob sha256:bcf1e91494f0f3f93229de8bc86ecbe5d4f097c7a0174e762b7e0e0a0dcbd90c
+admin/testrepo-5:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v9	Copying blob sha256:658b6fc3e7e97591fb3dde1663fda95ecfe742300478176811e0aed263fdead2
+admin/testrepo-5:v9	Copying config sha256:fde76a647a96623941cafe4782cc3136f289d07393bb2b68f3ecbfbaffd23eab
+admin/testrepo-5:v9	Writing manifest to image destination
+testuser1/testrepo-1:06112024_amd64	Image name: testuser1/testrepo-1:06112024_amd64
+testuser1/testrepo-1:06112024_amd64	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:06112024_amd64 to docker://3.255.235.204:34034/testuser1/testrepo-1:06112024_amd64
+testuser1/testrepo-1:06112024_amd64	Getting image source signatures
+testuser1/testrepo-1:06112024_amd64	Copying blob sha256:9683c40222075d97702f5dde33665c04b2aea1f8c6edf7c071a51e8527b36c32
+testuser1/testrepo-1:06112024_amd64	Copying blob sha256:e38b0d16a88a67b74438b547d2f7a5c3cfa53c1700ca9fb6d2a433cb1c19b639
+testuser1/testrepo-1:06112024_amd64	Copying blob sha256:b51987f9f43cf63fc2092e4fb80b05d45a04a1b07089e7275484cd9002014713
+testuser1/testrepo-1:06112024_amd64	Copying blob sha256:404e80545dbdd18041c6ba096c731a3d2aa1e4c2688e6967fdc26ac770847909
+testuser1/testrepo-1:06112024_amd64	Copying blob sha256:c4d4d7112d8d7fcfc9bb1bc68b7e9f719584e29c76122c1b6bfd297c4308006f
+testuser1/testrepo-1:06112024_amd64	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:06112024_amd64	Copying config sha256:a7c0869a132e4e8a9179758a6643e287d0991e8832512fac4d0fa1fe9ed5674b
+testuser1/testrepo-1:06112024_amd64	Writing manifest to image destination
+admin/testrepo-5:v7	Image name: admin/testrepo-5:v7
+admin/testrepo-5:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v7 to docker://3.255.235.204:34034/admin/testrepo-5:v7
+admin/testrepo-5:v7	Getting image source signatures
+admin/testrepo-5:v7	Copying blob sha256:292c38d6cde8a716d714898b8c8e628d4565edc9f676eb81e69c9ad79a15e1ea
+admin/testrepo-5:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v7	Copying blob sha256:4ace47387ef3ed563170cf46afed0cf5ab2e09c1ffe70a883092e4339280af84
+admin/testrepo-5:v7	Copying config sha256:75ac908de9e57c2ebb5fdac159e251cceda644579461ce0b1125f09c344b081e
+admin/testrepo-5:v7	Writing manifest to image destination
+admin/testrepo-5:v8	Image name: admin/testrepo-5:v8
+admin/testrepo-5:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v8 to docker://3.255.235.204:34034/admin/testrepo-5:v8
+admin/testrepo-5:v8	Getting image source signatures
+admin/testrepo-5:v8	Copying blob sha256:f47c59d0f5753da4145c12a8f7d5a812b1ae557c770f0e02f0c41367cb8133cd
+admin/testrepo-5:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v8	Copying blob sha256:bdf0909e6e403814ad1fe89f52a1bc7082b8c473db55579eb73009d5573ab57a
+admin/testrepo-5:v8	time="2024-11-10T10:39:00Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-5/blobs/uploads/c3a91e4f-a7f4-48f2-a9b6-9f8f9e069255?_state=P2P_0f4ApxKSwrOLJHaHbfQxIHQnori0jwNPtQMzhLV7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby01IiwiVVVJRCI6ImMzYTkxZTRmLWE3ZjQtNDhmMi1hOWI2LTlmOGY5ZTA2OTI1NSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDoyMjozOS42MTAzOTExNjhaIn0%3D\": write tcp 172.17.0.2:58366->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-5:v6	Image name: admin/testrepo-5:v6
+admin/testrepo-5:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v6 to docker://3.255.235.204:34034/admin/testrepo-5:v6
+admin/testrepo-5:v6	Getting image source signatures
+admin/testrepo-5:v6	Copying blob sha256:1f92e68393d0d1169044ec19fe29162f3069d23a034c536c234bd4cae01929fe
+admin/testrepo-5:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v6	Copying blob sha256:7e3202bb88b26ea0ebe8a7cbf355485aa1628edb0eb79b1dfb6422f434669ca4
+admin/testrepo-5:v6	time="2024-11-10T10:39:03Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-5/blobs/uploads/74556e65-1ea0-443c-a170-985cf3cfc950?_state=Z1Ro5eA8a5JG5ckSvOtIOJDvlQ46QVhBn7NoLekENpd7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby01IiwiVVVJRCI6Ijc0NTU2ZTY1LTFlYTAtNDQzYy1hMTcwLTk4NWNmM2NmYzk1MCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDoyMjo1MC44MjIxMjM0NjZaIn0%3D\": write tcp 172.17.0.2:55720->3.255.235.204:34034: write: broken pipe"
+testuser1/testrepo-2:v8	Image name: testuser1/testrepo-2:v8
+testuser1/testrepo-2:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v8 to docker://3.255.235.204:34034/testuser1/testrepo-2:v8
+testuser1/testrepo-2:v8	Getting image source signatures
+testuser1/testrepo-2:v8	Copying blob sha256:7801fd015d9a7a079e040f4a6e6f9944103010a24b974924606976d2f26a3cac
+testuser1/testrepo-2:v8	Copying blob sha256:e397d7a7d8344c842526a2ea4da06cde86612117ec99a75f59b760909148fe81
+testuser1/testrepo-2:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v8	time="2024-11-10T10:39:07Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-2/blobs/uploads/685d6448-f897-4921-b7b1-3c72fe634915?_state=NU_TMdkGV2sqlJfp10DhQQFZZvB9-Ke7SEirEbdSPrN7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tMiIsIlVVSUQiOiI2ODVkNjQ0OC1mODk3LTQ5MjEtYjdiMS0zYzcyZmU2MzQ5MTUiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjI6MDEuMzA5MjExMjE1WiJ9\": write tcp 172.17.0.2:57072->3.255.235.204:34034: use of closed network connection"
+admin/testrepo-5:v5	Image name: admin/testrepo-5:v5
+admin/testrepo-5:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v5 to docker://3.255.235.204:34034/admin/testrepo-5:v5
+admin/testrepo-5:v5	Getting image source signatures
+admin/testrepo-5:v5	Copying blob sha256:d57599fc18855b2369084a16b3162cb4bdf7f90a92b9bc84eaee7755939f2fd3
+admin/testrepo-5:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v5	Copying blob sha256:58dbafde9efc55683e9f1774131c061f507311a2b4cf477eda985fd46f6b8b1e
+admin/testrepo-5:v5	Copying config sha256:7e2c7a98b1edb36e5d6ad593b2de3c910fe39a0f9bcd698bfcff4e59de8f7e35
+admin/testrepo-5:v5	Writing manifest to image destination
+admin/testrepo-5:v4	Image name: admin/testrepo-5:v4
+admin/testrepo-5:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v4 to docker://3.255.235.204:34034/admin/testrepo-5:v4
+admin/testrepo-5:v4	Getting image source signatures
+admin/testrepo-5:v4	Copying blob sha256:f5c6f7772e2895ff3ed255b81999c32a105e7dd9874136403b3dd5af4aacc134
+admin/testrepo-5:v4	Copying blob sha256:a4f1edde1103eb2d9bd03ab5eae6d175c2f8e3a70f0e202d85607008a784179b
+admin/testrepo-5:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v4	Copying config sha256:73d01906a611b799c47fbbf304c091d5b8b8d53ef275ca0b3e23d0275aadda98
+admin/testrepo-5:v4	Writing manifest to image destination
+admin/testrepo-5:v3	Image name: admin/testrepo-5:v3
+admin/testrepo-5:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v3 to docker://3.255.235.204:34034/admin/testrepo-5:v3
+admin/testrepo-5:v3	Getting image source signatures
+admin/testrepo-5:v3	Copying blob sha256:4f21dc0f9c408b10dce1ac3183b843ede1a7444a755a7b715b20a60b4ce7ef19
+admin/testrepo-5:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v3	Copying blob sha256:136fa5889eff46015ec0fdccecd0758c8151619dd4f54dc98344cc3722ba1032
+admin/testrepo-5:v3	Copying config sha256:a9073ef6b3f013e32fa43831d9f4f91e230c9186fc5c6ff4a704dd7537c3b092
+admin/testrepo-5:v3	Writing manifest to image destination
+testuser1/testrepo-5:v7	Image name: testuser1/testrepo-5:v7
+testuser1/testrepo-5:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-5:v7 to docker://3.255.235.204:34034/testuser1/testrepo-5:v7
+testuser1/testrepo-5:v7	Getting image source signatures
+testuser1/testrepo-5:v7	Copying blob sha256:eac0c0427b06d72a72b759a18bce22a7ec99c046e2b54e1555dcd659326a170f
+testuser1/testrepo-5:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-5:v7	Copying blob sha256:ed2203553fabd2455e2a239747e95412f9e57d4407da598d751163072bacb0a5
+testuser1/testrepo-5:v7	time="2024-11-10T10:39:16Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-5/blobs/uploads/9b8a4433-48c9-4b84-a6de-024b63b8840d?_state=AYhAxhtvE-wMmeNuCmJFmzgkkeyRZuCAlIDsytD52zl7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tNSIsIlVVSUQiOiI5YjhhNDQzMy00OGM5LTRiODQtYTZkZS0wMjRiNjNiODg0MGQiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjE6NDMuMDA2ODgxODQ5WiJ9\": write tcp 172.17.0.2:36684->3.255.235.204:34034: write: broken pipe"
+testuser1/testrepo-1:06112024_arm64	Image name: testuser1/testrepo-1:06112024_arm64
+testuser1/testrepo-1:06112024_arm64	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:06112024_arm64 to docker://3.255.235.204:34034/testuser1/testrepo-1:06112024_arm64
+testuser1/testrepo-1:06112024_arm64	Getting image source signatures
+testuser1/testrepo-1:06112024_arm64	Copying blob sha256:931445232e7a77e46aa39dea5940c561cdfa28acb9291a54ee99c5f026f26e53
+testuser1/testrepo-1:06112024_arm64	Copying blob sha256:cf04c63912e16506c4413937c7f4579018e4bb25c272d989789cfba77b12f951
+testuser1/testrepo-1:06112024_arm64	Copying blob sha256:e9208933e83caa13736f1a242043e3192fc57a5c2572671d5ef07b1a5e933ff9
+testuser1/testrepo-1:06112024_arm64	Copying blob sha256:f7c470543b8ee8cb408c495970cd7c897971c9624107447b98a7e692f55ff97b
+testuser1/testrepo-1:06112024_arm64	Copying blob sha256:88703d18c91f8cdbb15badc6c438b1f862e1a4c4c243ee4134ed23aa0610979f
+testuser1/testrepo-1:06112024_arm64	Copying blob sha256:d5bdd7d13d989a3f040b62ffceb5af65c4c6a1eab0d0ed324300b9954c812400
+testuser1/testrepo-1:06112024_arm64	time="2024-11-10T10:39:19Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-1/blobs/uploads/06c16fc5-99fc-4665-b3e3-a44b46743074?_state=6hpJCnWVitpclWfGKClWcvfGKsYEN0N2J6PGUmGv4bJ7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tMSIsIlVVSUQiOiIwNmMxNmZjNS05OWZjLTQ2NjUtYjNlMy1hNDRiNDY3NDMwNzQiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjI6MTcuOTI2MDMwNTJaIn0%3D\": write tcp 172.17.0.2:59604->3.255.235.204:34034: write: broken pipe"
+testuser1/testrepo-1:v9	Image name: testuser1/testrepo-1:v9
+testuser1/testrepo-1:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:v9 to docker://3.255.235.204:34034/testuser1/testrepo-1:v9
+testuser1/testrepo-1:v9	Getting image source signatures
+testuser1/testrepo-1:v9	Copying blob sha256:3a4349a3d166d9981f70539166d89a65fb808dcdf4e43dbd67def68b7212fd35
+testuser1/testrepo-1:v9	Copying blob sha256:c5ce495ae3b68274f3031f1b0d7bfece7671af8e8e40f132f77be26ba81b1483
+testuser1/testrepo-1:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:v9	time="2024-11-10T10:39:20Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-1/blobs/uploads/145ffe2f-3131-4e5b-afc1-b5edc24a670d?_state=MuR4-YdQ6pbOFYuDjDDW3LEhVpKV5uRwkxhHlHZi1rJ7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tMSIsIlVVSUQiOiIxNDVmZmUyZi0zMTMxLTRlNWItYWZjMS1iNWVkYzI0YTY3MGQiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjI6MDcuMTU3Mzg4NzgxWiJ9\": write tcp 172.17.0.2:34002->3.255.235.204:34034: write: broken pipe"
+testuser1/testrepo-2:v9	Image name: testuser1/testrepo-2:v9
+testuser1/testrepo-2:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v9 to docker://3.255.235.204:34034/testuser1/testrepo-2:v9
+testuser1/testrepo-2:v9	Getting image source signatures
+testuser1/testrepo-2:v9	Copying blob sha256:92314a198d82f087a637838230f85f143de7126d0e7b72a4b304f7b66d3558c7
+testuser1/testrepo-2:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v9	Copying blob sha256:bfcd67b4f6a698448cc878c890564439668b31322b6742217f8dd2caef692c4e
+testuser1/testrepo-2:v9	time="2024-11-10T10:39:22Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-2/blobs/uploads/a8c473d5-d385-4ece-b203-55035ec447f6?_state=U-l10KkleW0V6R7gWeO3QtpmJUbWQ8-BCDzNSGRzy5R7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tMiIsIlVVSUQiOiJhOGM0NzNkNS1kMzg1LTRlY2UtYjIwMy01NTAzNWVjNDQ3ZjYiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjI6MDAuMDg4NjA5NjY5WiJ9\": write tcp 172.17.0.2:57006->3.255.235.204:34034: write: broken pipe"
+testuser1/testrepo-2:v5	Image name: testuser1/testrepo-2:v5
+testuser1/testrepo-2:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-2:v5 to docker://3.255.235.204:34034/testuser1/testrepo-2:v5
+testuser1/testrepo-2:v5	Getting image source signatures
+testuser1/testrepo-2:v5	Copying blob sha256:5e0737b25fc45f0032e120038d2fecbd000751b73ff74f3a2f8415e9314508db
+testuser1/testrepo-2:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-2:v5	Copying blob sha256:4eb24dbab4a5f24856753c38e4fdd46478243b82fa103c9405e8726e4eb97e9a
+testuser1/testrepo-2:v5	time="2024-11-10T10:39:25Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-2/blobs/uploads/d6d31746-687f-475e-a3ca-5651f6e03115?_state=ey2hwiKftlpUfvbI7arQfDXOiYGjtc-KuLZ5Wtvy_aJ7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tMiIsIlVVSUQiOiJkNmQzMTc0Ni02ODdmLTQ3NWUtYTNjYS01NjUxZjZlMDMxMTUiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjI6MDEuNjI4OTMwMDVaIn0%3D\": write tcp 172.17.0.2:57164->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-4:v6	Image name: admin/testrepo-4:v6
+admin/testrepo-4:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v6 to docker://3.255.235.204:34034/admin/testrepo-4:v6
+admin/testrepo-4:v6	Getting image source signatures
+admin/testrepo-4:v6	Copying blob sha256:a0f37bc2e76b128bca7dd07acf952d9a1141fd47a814707160692437a765b9e8
+admin/testrepo-4:v6	Copying blob sha256:e0eaf9875d5f6bd6915aba162df88badc177a689cabc712f38ed9455b7776b4f
+admin/testrepo-4:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v6	Copying config sha256:fa90c3ab1743af4e1c0b859407d64c0e82b0d3c94b08dbce554f7aac718322e6
+admin/testrepo-4:v6	Writing manifest to image destination
+admin/testrepo-4:v8	Image name: admin/testrepo-4:v8
+admin/testrepo-4:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v8 to docker://3.255.235.204:34034/admin/testrepo-4:v8
+admin/testrepo-4:v8	Getting image source signatures
+admin/testrepo-4:v8	Copying blob sha256:dab3c189a01da61a824cd6c1cefc51d0cffbe5aab2893b76d4dd3de4c9a3bee3
+admin/testrepo-4:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v8	Copying blob sha256:0dec0168142b5c5bc7fbeb1636b2e5dd20c488783008484ddd9706e5baf31054
+admin/testrepo-4:v8	Copying config sha256:553abc8a6f5629dc5e3be098b868e6279faf84e85f65ddbb93b97ec846ad493a
+admin/testrepo-4:v8	Writing manifest to image destination
+admin/testrepo-4:v5	Image name: admin/testrepo-4:v5
+admin/testrepo-4:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v5 to docker://3.255.235.204:34034/admin/testrepo-4:v5
+admin/testrepo-4:v5	Getting image source signatures
+admin/testrepo-4:v5	Copying blob sha256:cdcb07b0bd46734268b233e05a686fd6b3b5468337b900c6251df62b6605dac1
+admin/testrepo-4:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v5	Copying blob sha256:899f9281e3ee71a9a6aee353b551fe1701ef74066e0c7a0a7f5c7aa9a22879ab
+admin/testrepo-4:v5	Copying config sha256:47ff94157a246f97bb0a6993d79640bca88340f3f1d52c37bb76802365478272
+admin/testrepo-4:v5	Writing manifest to image destination
+admin/testrepo-4:v3	Image name: admin/testrepo-4:v3
+admin/testrepo-4:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v3 to docker://3.255.235.204:34034/admin/testrepo-4:v3
+admin/testrepo-4:v3	Getting image source signatures
+admin/testrepo-4:v3	Copying blob sha256:7d1c5c9faf38ad429a2dde93edcbe0de05395e7be6647e83781714ae6d6b9d95
+admin/testrepo-4:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v3	Copying blob sha256:842f1c34974d7e0d03470b1f7f5b9e78424659cdd304ec8193ebdfca303af0a2
+admin/testrepo-4:v3	Copying config sha256:dd944740641d5cd6ea7b350ef8f47c2cfb244ae153597ed0490904594e5830e9
+admin/testrepo-4:v3	Writing manifest to image destination
+admin/testrepo-4:v4	Image name: admin/testrepo-4:v4
+admin/testrepo-4:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v4 to docker://3.255.235.204:34034/admin/testrepo-4:v4
+admin/testrepo-4:v4	Getting image source signatures
+admin/testrepo-4:v4	Copying blob sha256:9b3574e6c03f3b832820f2c9905da7ea9888dab3013bcb3fe5a29c0112acb9f2
+admin/testrepo-4:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v4	Copying blob sha256:97cac780b4a73069ab31a028bf057184b2531080fb184a03ee906d1e991c2d2c
+admin/testrepo-4:v4	Copying config sha256:d878ae72ef38d18a59b3fd9fdd2be2b240a9aecf29f7a2a1390a69607f9aecc2
+admin/testrepo-4:v4	Writing manifest to image destination
+admin/testrepo-4:v2	Image name: admin/testrepo-4:v2
+admin/testrepo-4:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v2 to docker://3.255.235.204:34034/admin/testrepo-4:v2
+admin/testrepo-4:v2	Getting image source signatures
+admin/testrepo-4:v2	Copying blob sha256:387e79b56f4ab8b9fd16a587a718736dc720da986373046d6c0637d03f6a0f13
+admin/testrepo-4:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v2	Copying blob sha256:1e704de436ad0c3f4070af6bc9e82e3e51ba2f6ca65f36c94bb1ff9144df3d90
+admin/testrepo-4:v2	Copying config sha256:07c2cffa005a9802effd6e936c377a27ca9dcddf12a46010f5679a91f7960f2d
+admin/testrepo-4:v2	Writing manifest to image destination
+admin/testrepo-4:v1	Image name: admin/testrepo-4:v1
+admin/testrepo-4:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v1 to docker://3.255.235.204:34034/admin/testrepo-4:v1
+admin/testrepo-4:v1	Getting image source signatures
+admin/testrepo-4:v1	Copying blob sha256:4fb350119c2c646dec10df84eed60e8b142437f711402d50969d7f5242ddbdcd
+admin/testrepo-4:v1	Copying blob sha256:f96d91510199b2a1dd39546cf5b4ec68336c569b73365b593ae0f0a0745b8651
+admin/testrepo-4:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v1	Copying config sha256:f16068a7370bf24a318bfaab0df176ad213b9ee5680ad118b87e8d62474944f4
+admin/testrepo-4:v1	Writing manifest to image destination
+admin/testrepo-3:v8	Image name: admin/testrepo-3:v8
+admin/testrepo-3:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v8 to docker://3.255.235.204:34034/admin/testrepo-3:v8
+admin/testrepo-3:v8	Getting image source signatures
+admin/testrepo-3:v8	Copying blob sha256:463f11c81b6099e75b1370c90fa8cba39145391631a604cb90104ceae2c17c08
+admin/testrepo-3:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v8	Copying blob sha256:29c9d1980ecf17792a05792812e9b64853f8708ea444a9bc0e588c0f59b70f70
+admin/testrepo-3:v8	Copying config sha256:4f91f93cbe22aa0c1589e0729d71b737eb6a7ffb391f920330da6442c0dacb7d
+admin/testrepo-3:v8	Writing manifest to image destination
+admin/testrepo-5:v1	Image name: admin/testrepo-5:v1
+admin/testrepo-5:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v1 to docker://3.255.235.204:34034/admin/testrepo-5:v1
+admin/testrepo-5:v1	time="2024-11-10T10:55:27Z" level=fatal msg="initializing source docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v1: pinging container registry aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com: Get \"http://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/v2/\": dial tcp 54.76.248.109:80: i/o timeout"
+admin/testrepo-3:v6	Image name: admin/testrepo-3:v6
+admin/testrepo-3:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v6 to docker://3.255.235.204:34034/admin/testrepo-3:v6
+admin/testrepo-3:v6	Getting image source signatures
+admin/testrepo-3:v6	Copying blob sha256:cb3d288eb31ca9c477c7b3f247773ed8cc5659c6bf19c5dbfbcdf8edaebbadbf
+admin/testrepo-3:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v6	Copying blob sha256:4958bf3d58566a1697b9b3f02505461851e96fa2e36c968ebb457809f2c9cd8b
+admin/testrepo-3:v6	Copying config sha256:b8bcb9a5a56a9d5df1842ce0e4f9543b301553868d836ff195522a19fea1a1b9
+admin/testrepo-3:v6	Writing manifest to image destination
+admin/testrepo-3:v5	Image name: admin/testrepo-3:v5
+admin/testrepo-3:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v5 to docker://3.255.235.204:34034/admin/testrepo-3:v5
+admin/testrepo-3:v5	Getting image source signatures
+admin/testrepo-3:v5	Copying blob sha256:dd393e97d5f23b828a219dd020af76cb588aeeb906518276a4567584f4d16827
+admin/testrepo-3:v5	Copying blob sha256:8cb10c28161a96208211e250a95cfa7489fe35538d516d57fa86cc4bf6887e19
+admin/testrepo-3:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v5	Copying config sha256:e03eda872550e4d9f15de6b0e85d5576f35984267bef9f651dbedb6589f9db6d
+admin/testrepo-3:v5	Writing manifest to image destination
+admin/testrepo-3:v4	Image name: admin/testrepo-3:v4
+admin/testrepo-3:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v4 to docker://3.255.235.204:34034/admin/testrepo-3:v4
+admin/testrepo-3:v4	Getting image source signatures
+admin/testrepo-3:v4	Copying blob sha256:06674631d0f280919a7932e278c3d5359f342fa506a1e1c9402f00fea4977c73
+admin/testrepo-3:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v4	Copying blob sha256:3ad8d8c3af4b961177fd1c25dbc733df4280777752caf9089323b3a2f8c69f73
+admin/testrepo-3:v4	Copying config sha256:3e2ec186de85590546cb142d3f7b06acfb8a3f3cbd5a5078e603f989b4b7b1f4
+admin/testrepo-3:v4	Writing manifest to image destination
+admin/testrepo-4:v7	Image name: admin/testrepo-4:v7
+admin/testrepo-4:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v7 to docker://3.255.235.204:34034/admin/testrepo-4:v7
+admin/testrepo-4:v7	Getting image source signatures
+admin/testrepo-4:v7	Copying blob sha256:4fc2ba5672a9b685d4277fcd15235d242cde5a71f12da8e54460875599bd777e
+admin/testrepo-4:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v7	Copying blob sha256:cf1b96aba00370d84aa546babf2d4c606762e167c7171f0babfb477e76312b2d
+admin/testrepo-4:v7	time="2024-11-10T11:10:56Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-4/blobs/uploads/f8017e5a-c967-4834-b829-7ff7d59db994?_state=vpd-NiREL7GnUS6irlEo-EvUQcLxxE0WJ_9yebAnD4N7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby00IiwiVVVJRCI6ImY4MDE3ZTVhLWM5NjctNDgzNC1iODI5LTdmZjdkNTlkYjk5NCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDo1NDo0OS40Nzk1NzE2MDZaIn0%3D\": write tcp 172.17.0.2:52880->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-4:v9	Image name: admin/testrepo-4:v9
+admin/testrepo-4:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v9 to docker://3.255.235.204:34034/admin/testrepo-4:v9
+admin/testrepo-4:v9	Getting image source signatures
+admin/testrepo-4:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v9	Copying blob sha256:c2ebbf2e9844c11c902ee6b2a3c67e8219296e676c7f489fc24ac0e8c55bddde
+admin/testrepo-4:v9	Copying blob sha256:b90b9db16f868a0eb99a90f704080bbaa1f8ee97ba38838c538c6c34b96dabe3
+admin/testrepo-4:v9	time="2024-11-10T11:10:56Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-4/blobs/uploads/113c0f20-fc26-4660-a35f-8cbc553791bb?_state=s18zMalhiFoLXutNETNXGQbtK15i-QsOY7HS6wViQoB7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby00IiwiVVVJRCI6IjExM2MwZjIwLWZjMjYtNDY2MC1hMzVmLThjYmM1NTM3OTFiYiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDo1NDo0NS41MTM3NjYxNloifQ%3D%3D\": write tcp 172.17.0.2:52796->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-3:v10	Image name: admin/testrepo-3:v10
+admin/testrepo-3:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v10 to docker://3.255.235.204:34034/admin/testrepo-3:v10
+admin/testrepo-3:v10	Getting image source signatures
+admin/testrepo-3:v10	Copying blob sha256:a97efc0d5b3bb1502ef8379f7935231b9e8c51f2b2b1d11307482d71a5f61c5b
+admin/testrepo-3:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v10	Copying blob sha256:a092a12eea76c2a40a5761c74f360b2afb3f6cc05701970f1236e19fc1d27113
+admin/testrepo-3:v10	Copying config sha256:806b1db9f3bb39ece2b6d1f955c246810a9153c49c1804b5a8b8c35f6e5e33dc
+admin/testrepo-3:v10	Writing manifest to image destination
+admin/testrepo-3:v2	Image name: admin/testrepo-3:v2
+admin/testrepo-3:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v2 to docker://3.255.235.204:34034/admin/testrepo-3:v2
+admin/testrepo-3:v2	Getting image source signatures
+admin/testrepo-3:v2	Copying blob sha256:5e446f5c9c033738e3e95bc4ad99b219937c0de56a880401dc10570358384cba
+admin/testrepo-3:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v2	Copying blob sha256:0bd5baa1f9691d7287f0e862314a17cbea8c17aab05101f56da2260a695d3f5d
+admin/testrepo-3:v2	Copying config sha256:a4330810fd7bb4fc93b2828c7a1e251a24b7ed5b5da4b91df535dfb68c198a65
+admin/testrepo-3:v2	Writing manifest to image destination
+admin/testrepo-3:v1	Image name: admin/testrepo-3:v1
+admin/testrepo-3:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v1 to docker://3.255.235.204:34034/admin/testrepo-3:v1
+admin/testrepo-3:v1	Getting image source signatures
+admin/testrepo-3:v1	Copying blob sha256:46656cb87fff05d4334950707ce0927c536127222f725b805e0d162fb8f61c0b
+admin/testrepo-3:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v1	Copying blob sha256:a199d5396288f17f0cdb17845a338a63ae668ed56a007b707d6a1e47a6c2c8a7
+admin/testrepo-3:v1	Copying config sha256:1628061f97455dd0ec024dc712d897b01c2c5c1bba5c3454a3b965cba5d5d949
+admin/testrepo-3:v1	Writing manifest to image destination
+testuser1/testrepo-1:06112024_amd64_aflac	Image name: testuser1/testrepo-1:06112024_amd64_aflac
+testuser1/testrepo-1:06112024_amd64_aflac	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:06112024_amd64_aflac to docker://3.255.235.204:34034/testuser1/testrepo-1:06112024_amd64_aflac
+testuser1/testrepo-1:06112024_amd64_aflac	Getting image source signatures
+testuser1/testrepo-1:06112024_amd64_aflac	Copying blob sha256:0ba1b5644da81998dc8cf102c40dece96e657f19aaadae5876433d8ccc43e288
+testuser1/testrepo-1:06112024_amd64_aflac	Copying blob sha256:e38b0d16a88a67b74438b547d2f7a5c3cfa53c1700ca9fb6d2a433cb1c19b639
+testuser1/testrepo-1:06112024_amd64_aflac	Copying blob sha256:b51987f9f43cf63fc2092e4fb80b05d45a04a1b07089e7275484cd9002014713
+testuser1/testrepo-1:06112024_amd64_aflac	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+testuser1/testrepo-1:06112024_amd64_aflac	Copying blob sha256:404e80545dbdd18041c6ba096c731a3d2aa1e4c2688e6967fdc26ac770847909
+testuser1/testrepo-1:06112024_amd64_aflac	Copying blob sha256:da2ec093e69c0a9d74c7708c7d8fb8efd5f113c4baa3cd1af1583f772dbfb332
+testuser1/testrepo-1:06112024_amd64_aflac	time="2024-11-10T11:11:33Z" level=info msg="Reading blob body from https://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/v2/testuser1/testrepo-1/blobs/sha256:404e80545dbdd18041c6ba096c731a3d2aa1e4c2688e6967fdc26ac770847909 failed (unexpected EOF), reconnecting after 39616513 bytes…"
+testuser1/testrepo-1:06112024_amd64_aflac	time="2024-11-10T11:11:35Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-1/blobs/uploads/6b11e4df-5f27-435f-91d7-146c451b0015?_state=KlyCwjVlD92eCUZ6bL3U7zY__P5ysgvg5fO0WguxuWl7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tMSIsIlVVSUQiOiI2YjExZTRkZi01ZjI3LTQzNWYtOTFkNy0xNDZjNDUxYjAwMTUiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjI6MjMuNjQ1MTY3NjEzWiJ9\": use of closed network connection"
+testuser1/testrepo-1:06112024	Image name: testuser1/testrepo-1:06112024
+testuser1/testrepo-1:06112024	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/testuser1/testrepo-1:06112024 to docker://3.255.235.204:34034/testuser1/testrepo-1:06112024
+testuser1/testrepo-1:06112024	Getting image source signatures
+testuser1/testrepo-1:06112024	Copying blob sha256:f6e9562bc59c2ab565b3b7d8a830dc2d9fbc6810318d3edecb309f6639fe6fa6
+testuser1/testrepo-1:06112024	Copying blob sha256:ca01b15f632a2c2c4a73cbe92c72a30b3611b83798294793e8893ea6efb02cd4
+testuser1/testrepo-1:06112024	Copying blob sha256:ff65ddf9395be21bfe1f320b7705e539ee44c1053034f801b1a3cbbf2d0f4056
+testuser1/testrepo-1:06112024	Copying blob sha256:8d795bc89c9ee1784f150bdd67b5fe6ab854ccaafd265f2d94fe94c280545bdb
+testuser1/testrepo-1:06112024	Copying blob sha256:b4e3cbbca90a9d3bcabb2688c5687998af05b38e534e9a700e2e3ca9fc951179
+testuser1/testrepo-1:06112024	Copying blob sha256:f6e9562bc59c2ab565b3b7d8a830dc2d9fbc6810318d3edecb309f6639fe6fa6
+testuser1/testrepo-1:06112024	time="2024-11-10T11:11:33Z" level=info msg="Reading blob body from https://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/v2/testuser1/testrepo-1/blobs/sha256:b4e3cbbca90a9d3bcabb2688c5687998af05b38e534e9a700e2e3ca9fc951179 failed (unexpected EOF), reconnecting after 69358327 bytes…"
+testuser1/testrepo-1:06112024	time="2024-11-10T11:11:35Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/testuser1/testrepo-1/blobs/uploads/9a9abd4a-ddb8-4cdc-b01a-9ca40d4a754c?_state=kAfKvThE-m-vvOq5-M-QWcUtGAtKb11JhyxeSYrwGFN7Ik5hbWUiOiJ0ZXN0dXNlcjEvdGVzdHJlcG8tMSIsIlVVSUQiOiI5YTlhYmQ0YS1kZGI4LTRjZGMtYjAxYS05Y2E0MGQ0YTc1NGMiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjQtMTEtMTBUMTA6MjI6MjYuODI1OTk0MzgxWiJ9\": write tcp 172.17.0.2:37372->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-2:v6	Image name: admin/testrepo-2:v6
+admin/testrepo-2:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v6 to docker://3.255.235.204:34034/admin/testrepo-2:v6
+admin/testrepo-2:v6	Getting image source signatures
+admin/testrepo-2:v6	Copying blob sha256:adde521af57034d8e6984b6d77ea938f153ef260534dc2e40b5eb02c5e11688c
+admin/testrepo-2:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v6	Copying blob sha256:c58df3713fbccec8c3f18eaad934ec8d73bc760daa73e00e3dbfac36dbd52b0f
+admin/testrepo-2:v6	Copying config sha256:144a1435801acd1b64714c69cecf7d9ee12d63c89da243271703bb84481e08aa
+admin/testrepo-2:v6	Writing manifest to image destination
+admin/testrepo-2:v8	Image name: admin/testrepo-2:v8
+admin/testrepo-2:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v8 to docker://3.255.235.204:34034/admin/testrepo-2:v8
+admin/testrepo-2:v8	Getting image source signatures
+admin/testrepo-2:v8	Copying blob sha256:2363d53a3f50a02afa3cae0611aabe11ecca0941f03cb7c8b34c32e2095dd30d
+admin/testrepo-2:v8	Copying blob sha256:d789b70d3048e17002910117605b4456aaddf7b41cd95d288478792a85663808
+admin/testrepo-2:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v8	Copying config sha256:5db2d7d2bbf1f0865aa203b193a57bd489fe268603c78bb0a893aecbe7fc0de2
+admin/testrepo-2:v8	Writing manifest to image destination
+admin/testrepo-2:v5	Image name: admin/testrepo-2:v5
+admin/testrepo-2:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v5 to docker://3.255.235.204:34034/admin/testrepo-2:v5
+admin/testrepo-2:v5	Getting image source signatures
+admin/testrepo-2:v5	Copying blob sha256:9148079868a769c646a7fb2eda26a8469b24512bbe2ce7accba3c1e9d69b178e
+admin/testrepo-2:v5	Copying blob sha256:582918d69c2a8d32dae2f7894eb39c115b640bd9db819c4053a30b63057a45e1
+admin/testrepo-2:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v5	Copying config sha256:c49bec90d3c4c010223036c8155ed166cad0599da8d1848414bee3a0fda94452
+admin/testrepo-2:v5	Writing manifest to image destination
+admin/testrepo-3:v9	Image name: admin/testrepo-3:v9
+admin/testrepo-3:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v9 to docker://3.255.235.204:34034/admin/testrepo-3:v9
+admin/testrepo-3:v9	Getting image source signatures
+admin/testrepo-3:v9	Copying blob sha256:facb0922c2ed3c47fc8190021127f84911a369f70763ac9f58ecfe1de4d01f1b
+admin/testrepo-3:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v9	Copying blob sha256:c50d33380eddb2c26fd4af0df2fc5e87352da29df3a9d91e941af3faebd17d61
+admin/testrepo-3:v9	time="2024-11-10T11:11:43Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-3/blobs/uploads/9a25dcb7-1f44-491a-ad66-36164ec01490?_state=5NFJd13SKBxd1tVEurFA_5D72QfMVW45gTF6CRXrNth7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby0zIiwiVVVJRCI6IjlhMjVkY2I3LTFmNDQtNDkxYS1hZDY2LTM2MTY0ZWMwMTQ5MCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDo1NTowNi42NTAxMDAyNDNaIn0%3D\": write tcp 172.17.0.2:45520->3.255.235.204:34034: use of closed network connection"
+admin/testrepo-2:v4	Image name: admin/testrepo-2:v4
+admin/testrepo-2:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v4 to docker://3.255.235.204:34034/admin/testrepo-2:v4
+admin/testrepo-2:v4	Getting image source signatures
+admin/testrepo-2:v4	Copying blob sha256:d392b8897e378b177c44ece359fa0ed570645aa21e8ba3b7526f18359bccc148
+admin/testrepo-2:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v4	Copying blob sha256:efe4256b951efdb6f3f39c77f1728af897f5c2e885a8a5d541eb388d86275d61
+admin/testrepo-2:v4	Copying config sha256:36c96e6a03bbdf9fb94137df65115ce29f21cab5f684a219ab124f37c0095a69
+admin/testrepo-2:v4	Writing manifest to image destination
+admin/testrepo-4:v10	Image name: admin/testrepo-4:v10
+admin/testrepo-4:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-4:v10 to docker://3.255.235.204:34034/admin/testrepo-4:v10
+admin/testrepo-4:v10	Getting image source signatures
+admin/testrepo-4:v10	Copying blob sha256:9fcd6b9124471490e90436276667a51971b412c51954abed618dac1e53f1618b
+admin/testrepo-4:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-4:v10	Copying blob sha256:e4e46f1dd73f42b9abd77c2b133fefc67dfece18d913abe22230636711851116
+admin/testrepo-4:v10	time="2024-11-10T11:11:51Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-4/blobs/uploads/bc8bb44d-2269-4fcd-8b7a-37385bb8b9b7?_state=cPy0vVJUHsE8ibDuZfL7GrUxin0tZazRslzll7XTVwp7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby00IiwiVVVJRCI6ImJjOGJiNDRkLTIyNjktNGZjZC04YjdhLTM3Mzg1YmI4YjliNyIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDo1NDo1OS42MTY1Mjc3MzZaIn0%3D\": write tcp 172.17.0.2:32894->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-2:v3	Image name: admin/testrepo-2:v3
+admin/testrepo-2:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v3 to docker://3.255.235.204:34034/admin/testrepo-2:v3
+admin/testrepo-2:v3	Getting image source signatures
+admin/testrepo-2:v3	Copying blob sha256:a3a7461d41766d2bd09ccd3704a86d8b6ab097fed7d0b4d2d67fd4a666e1f8fd
+admin/testrepo-2:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v3	Copying blob sha256:06c83368de86192ace75d6872a18f0aad421ae191f7f100ab1acdb329f76d80c
+admin/testrepo-2:v3	time="2024-11-10T11:11:56Z" level=fatal msg="trying to reuse blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 at destination: pinging container registry 3.255.235.204:34034: StatusCode: 400, \"<html>\\r\\n<head><title>400 The plain HTTP request wa...\""
+admin/testrepo-2:v1	Image name: admin/testrepo-2:v1
+admin/testrepo-2:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v1 to docker://3.255.235.204:34034/admin/testrepo-2:v1
+admin/testrepo-2:v1	Getting image source signatures
+admin/testrepo-2:v1	Copying blob sha256:bd09829aa21a0508d8f35d358c3c84d30cf47cb582b2b418aa69794b0b3dac7e
+admin/testrepo-2:v1	Copying blob sha256:8143ab031e330683cb3c00f8f61562fc01f99e6c929aed71cdd19d4ddb89a8ba
+admin/testrepo-2:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v1	Copying config sha256:af635144c6201cbb43bcb8e9c5a4bd0420f52eda3f75162f8f3b7aadaeaf79a7
+admin/testrepo-2:v1	Writing manifest to image destination
+admin/testrepo-1:v9	Image name: admin/testrepo-1:v9
+admin/testrepo-1:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v9 to docker://3.255.235.204:34034/admin/testrepo-1:v9
+admin/testrepo-1:v9	Getting image source signatures
+admin/testrepo-1:v9	Copying blob sha256:ce5f95b2acac4ea1808c2b8e456192955598fa296feb9f122d83d6aff6f717ae
+admin/testrepo-1:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v9	Copying blob sha256:b6b4143c3ea76601756eed01b658ae0a07c097347a16df380db4654c6b1c2c36
+admin/testrepo-1:v9	Copying config sha256:48041863d0ad51c9420bb1f89571a4dd6f7296c6df8b91cf91c0aa8708ee1158
+admin/testrepo-1:v9	Writing manifest to image destination
+admin/testrepo-3:v3	Image name: admin/testrepo-3:v3
+admin/testrepo-3:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v3 to docker://3.255.235.204:34034/admin/testrepo-3:v3
+admin/testrepo-3:v3	Getting image source signatures
+admin/testrepo-3:v3	Copying blob sha256:6ebb5dce7aa83f9a27094b10cbcd3d7feda49bfdc1ed100d3e51cbdfdc73a32f
+admin/testrepo-3:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v3	Copying blob sha256:59a41a4b86ee994b5bef11f2bf3c87b520210a252943d185bd4dcd94df7869e1
+admin/testrepo-3:v3	time="2024-11-10T11:27:42Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-3/blobs/uploads/5b88085c-e138-443f-b34b-5b288fabcd38?_state=tSnJ21AdV91cn4CExvsF4PQcxCNUk-nYiuHS00pvme17Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby0zIiwiVVVJRCI6IjViODgwODVjLWUxMzgtNDQzZi1iMzRiLTViMjg4ZmFiY2QzOCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMToxMToxNy40MzA2NzIzNTdaIn0%3D\": write tcp 172.17.0.2:52226->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-2:v9	Image name: admin/testrepo-2:v9
+admin/testrepo-2:v9	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v9 to docker://3.255.235.204:34034/admin/testrepo-2:v9
+admin/testrepo-2:v9	Getting image source signatures
+admin/testrepo-2:v9	Copying blob sha256:e6fe589e8ec670501098ead5d6cf50bf93a2fcf6073e5b652353e2b657f13bf2
+admin/testrepo-2:v9	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v9	Copying blob sha256:8b0ce25b0ed179f64a812fa4ed44ecf7f7f0dafe88fd795ba65f789fc9fc942d
+admin/testrepo-2:v9	time="2024-11-10T11:27:44Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-2/blobs/uploads/637c73b9-9a70-4ac6-b980-fd2e6d8f8cdf?_state=_4HXndUoNz5UIb3vT0ohnP5RhkU1iUibsx4mnz1swxl7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby0yIiwiVVVJRCI6IjYzN2M3M2I5LTlhNzAtNGFjNi1iOTgwLWZkMmU2ZDhmOGNkZiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMToxMToyOS4zMjIyMjUwNTZaIn0%3D\": write tcp 172.17.0.2:59390->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-2:v7	Image name: admin/testrepo-2:v7
+admin/testrepo-2:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v7 to docker://3.255.235.204:34034/admin/testrepo-2:v7
+admin/testrepo-2:v7	Getting image source signatures
+admin/testrepo-2:v7	Copying blob sha256:b7df807234faed24029d884a7ef5509ac6066d2f19fc1e97ab71a6f98f17d348
+admin/testrepo-2:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-2:v7	Copying blob sha256:ba513edbdfb82522c619aafd7c1f915e7643b64976d95ef2d074c23fb2683ca5
+admin/testrepo-2:v7	time="2024-11-10T11:27:45Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-2/blobs/uploads/cd1b2b5e-4d76-41b1-84ae-27ca66ca9624?_state=gcKM95lpLq8GFpeeFNrHPlLItAD3SI2gKTlbzgxjpQV7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby0yIiwiVVVJRCI6ImNkMWIyYjVlLTRkNzYtNDFiMS04NGFlLTI3Y2E2NmNhOTYyNCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMToxMTozOS43NjAwMDEyMjlaIn0%3D\": write tcp 172.17.0.2:46062->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-1:v6	Image name: admin/testrepo-1:v6
+admin/testrepo-1:v6	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v6 to docker://3.255.235.204:34034/admin/testrepo-1:v6
+admin/testrepo-1:v6	Getting image source signatures
+admin/testrepo-1:v6	Copying blob sha256:e975d468e0628c4dda60c3be63fe3fa18c4e3a30853a2bb6d7f2f448b86f2eee
+admin/testrepo-1:v6	Copying blob sha256:cbe5a28c8cb7e0e186bc38019dbd3ec23da188fcd06eef63f0f734b6445617f6
+admin/testrepo-1:v6	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v6	Copying config sha256:e6401f06da3bd24be61f0a9c57cc78e10b0f4dbc31ce7abb84f5e7db3cec9fa7
+admin/testrepo-1:v6	Writing manifest to image destination
+admin/testrepo-5:v10	Image name: admin/testrepo-5:v10
+admin/testrepo-5:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v10 to docker://3.255.235.204:34034/admin/testrepo-5:v10
+admin/testrepo-5:v10	Getting image source signatures
+admin/testrepo-5:v10	Copying blob sha256:18133598df3a87219394fab9417e9b9e7aa9c7c65a848ac2eb9126ccac0f03ba
+admin/testrepo-5:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v10	Copying blob sha256:76ac1e84e4040233f0425c59aa4f42d08386c6bcb8a87cff9d194b19b0f63973
+admin/testrepo-5:v10	time="2024-11-10T11:27:45Z" level=info msg="Reading blob body from https://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/v2/admin/testrepo-5/blobs/sha256:18133598df3a87219394fab9417e9b9e7aa9c7c65a848ac2eb9126ccac0f03ba failed (unexpected EOF), reconnecting after 5238365 bytes…"
+admin/testrepo-5:v10	time="2024-11-10T11:27:47Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-5/blobs/uploads/2acb83ff-9e72-4243-a865-447c6c876152?_state=aFRnpd9fyqHTvmDpp3chrGuGoqdp0D-4ndhqavQClj57Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby01IiwiVVVJRCI6IjJhY2I4M2ZmLTllNzItNDI0My1hODY1LTQ0N2M2Yzg3NjE1MiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDozOToxNC4yODc5MzgyOTVaIn0%3D\": use of closed network connection"
+admin/testrepo-5:v2	Image name: admin/testrepo-5:v2
+admin/testrepo-5:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-5:v2 to docker://3.255.235.204:34034/admin/testrepo-5:v2
+admin/testrepo-5:v2	Getting image source signatures
+admin/testrepo-5:v2	Copying blob sha256:8b6254e25f6c3de655bba00287fbb9f4e2b22a86c5095c7f50241327e2ed49c7
+admin/testrepo-5:v2	Copying blob sha256:a8c1b93d810864a0380fb5f6c8aadda11e306ae93f018308395341549a21d89c
+admin/testrepo-5:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-5:v2	time="2024-11-10T11:27:45Z" level=info msg="Reading blob body from https://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/v2/admin/testrepo-5/blobs/sha256:8b6254e25f6c3de655bba00287fbb9f4e2b22a86c5095c7f50241327e2ed49c7 failed (unexpected EOF), reconnecting after 4779613 bytes…"
+admin/testrepo-5:v2	time="2024-11-10T11:27:47Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-5/blobs/uploads/f6723d50-d778-4637-80fe-9f73c485c252?_state=-iSPJz4O5mdCZkMJ6DDfwQf21ry__k3xj3pk4-yHcdd7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby01IiwiVVVJRCI6ImY2NzIzZDUwLWQ3NzgtNDYzNy04MGZlLTlmNzNjNDg1YzI1MiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMDozOToxMi41Nzk1NTcxOTJaIn0%3D\": use of closed network connection"
+admin/testrepo-1:v5	Image name: admin/testrepo-1:v5
+admin/testrepo-1:v5	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v5 to docker://3.255.235.204:34034/admin/testrepo-1:v5
+admin/testrepo-1:v5	Getting image source signatures
+admin/testrepo-1:v5	Copying blob sha256:fcb8d346d9b33424deaa9ceaa18bf07acf44f51549485e02242aeba8ab5f9741
+admin/testrepo-1:v5	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v5	Copying blob sha256:8b66216cc20d4f2379cea6030c96633a0dc2cd733533099c23527d1f3d14a35f
+admin/testrepo-1:v5	Copying config sha256:2b90cec4705e94271cf91a1b6cb58d716cf9d58c11d1fa590dea4b0aeb246597
+admin/testrepo-1:v5	Writing manifest to image destination
+admin/testrepo-1:v4	Image name: admin/testrepo-1:v4
+admin/testrepo-1:v4	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v4 to docker://3.255.235.204:34034/admin/testrepo-1:v4
+admin/testrepo-1:v4	Getting image source signatures
+admin/testrepo-1:v4	Copying blob sha256:d90ee580b09dfe882a1b16be105aca46740f86ae134b0d4c51a55790453381b4
+admin/testrepo-1:v4	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v4	Copying blob sha256:9d6633209a138fe7d7938d5d3877257411a1a63d970cf633b5c2350ad6676a87
+admin/testrepo-1:v4	Copying config sha256:514b9c75b4aaf8ebfa3516630cfa86956f6684e5c34b7a0f8a23a23bbd3d81a0
+admin/testrepo-1:v4	Writing manifest to image destination
+admin/testrepo-1:v3	Image name: admin/testrepo-1:v3
+admin/testrepo-1:v3	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v3 to docker://3.255.235.204:34034/admin/testrepo-1:v3
+admin/testrepo-1:v3	Getting image source signatures
+admin/testrepo-1:v3	Copying blob sha256:a3d5593644f277d9787f4687427858148110f2913b57b7b7b2d8a98a41328e22
+admin/testrepo-1:v3	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v3	Copying blob sha256:1705c5f72356e42eef4d097fa30481ad2f7c878097403e69a76d9c0412de9507
+admin/testrepo-1:v3	Copying config sha256:804ad99e750929ed69ed27acf30bbb2fc4e34a1219835c2ef1b2b5446318da2f
+admin/testrepo-1:v3	Writing manifest to image destination
+admin/testrepo-1:v2	Image name: admin/testrepo-1:v2
+admin/testrepo-1:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v2 to docker://3.255.235.204:34034/admin/testrepo-1:v2
+admin/testrepo-1:v2	Getting image source signatures
+admin/testrepo-1:v2	Copying blob sha256:d704ee0f697d8223ead17fcb67b5b28197b586947c1f0f48d29b35b73bd374de
+admin/testrepo-1:v2	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v2	Copying blob sha256:269e56be9a4b41ccce62355c422288d205a6c6fbd5065c5f3bf53d2f4f6a6fb1
+admin/testrepo-1:v2	Copying config sha256:543692b0044c7b8e35875203a61a4a67feb769d3405a5dd821bbfab34eb7eba4
+admin/testrepo-1:v2	Writing manifest to image destination
+admin/testrepo-1:v10	Image name: admin/testrepo-1:v10
+admin/testrepo-1:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v10 to docker://3.255.235.204:34034/admin/testrepo-1:v10
+admin/testrepo-1:v10	Getting image source signatures
+admin/testrepo-1:v10	Copying blob sha256:10df59eb1e68088594b0bc9344a1c20218d2233dc04dca2209491c44fdf4a7d4
+admin/testrepo-1:v10	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v10	Copying blob sha256:53bd352b9c8e8f6db241c28892fb6b957aa6d6ba358f24afdd7fdaa5d38dc81b
+admin/testrepo-1:v10	Copying config sha256:7c10a833295b3a712faa0bf7ab0b3826441bc34ce30abe192e80139a5614ba4e
+admin/testrepo-1:v10	Writing manifest to image destination
+admin/testrepo-1:v1	Image name: admin/testrepo-1:v1
+admin/testrepo-1:v1	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v1 to docker://3.255.235.204:34034/admin/testrepo-1:v1
+admin/testrepo-1:v1	Getting image source signatures
+admin/testrepo-1:v1	Copying blob sha256:76728a858bc7a287deb0e022447ef3b2aaeb4da00ca4482f796e44f21d39d944
+admin/testrepo-1:v1	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v1	Copying blob sha256:0a65464708d0052288ac0948c42c215a358bb1dbc46d3c15f4adbae8490734ee
+admin/testrepo-1:v1	Copying config sha256:deefc307b488345b4df478d084ab3a148acdc250d47112dd183f1cad956f1b29
+admin/testrepo-1:v1	Writing manifest to image destination
+admin/testrepo-2:v10	Image name: admin/testrepo-2:v10
+admin/testrepo-2:v10	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v10 to docker://3.255.235.204:34034/admin/testrepo-2:v10
+admin/testrepo-2:v10	time="2024-11-10T11:27:57Z" level=fatal msg="initializing source docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v10: pinging container registry aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com: Get \"http://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/v2/\": dial tcp 54.76.248.109:80: i/o timeout"
+admin/testrepo-2:v2	Image name: admin/testrepo-2:v2
+admin/testrepo-2:v2	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v2 to docker://3.255.235.204:34034/admin/testrepo-2:v2
+admin/testrepo-2:v2	time="2024-11-10T11:28:02Z" level=fatal msg="initializing source docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-2:v2: Get \"https://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/auth/token?account=migration_user&scope=repository%3Aadmin%2Ftestrepo-2%3Apull&service=dtr\": EOF"
+admin/testrepo-1:v7	Image name: admin/testrepo-1:v7
+admin/testrepo-1:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v7 to docker://3.255.235.204:34034/admin/testrepo-1:v7
+admin/testrepo-1:v7	Getting image source signatures
+admin/testrepo-1:v7	Copying blob sha256:4a6ba4b402f375b84aed4d77695bcc6d8308d05c4864d3533e607c969384f94d
+admin/testrepo-1:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v7	Copying blob sha256:88162bb26c65212f891f79977fdd5e052544cce38659ec9a6d3f427f42a2b0fd
+admin/testrepo-1:v7	time="2024-11-10T11:44:06Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-1/blobs/uploads/0a05a47e-d476-47ef-8215-5efd21603391?_state=pfLTgyNWM5T8ZjoEpJF4p--XS1eIKaIFkUmbkDIRHTF7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby0xIiwiVVVJRCI6IjBhMDVhNDdlLWQ0NzYtNDdlZi04MjE1LTVlZmQyMTYwMzM5MSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMToyNzoyOC45Njg5OTUwNTdaIn0%3D\": write tcp 172.17.0.2:44682->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-1:v8	Image name: admin/testrepo-1:v8
+admin/testrepo-1:v8	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-1:v8 to docker://3.255.235.204:34034/admin/testrepo-1:v8
+admin/testrepo-1:v8	Getting image source signatures
+admin/testrepo-1:v8	Copying blob sha256:93d8f7d7099c73a8c68a81e5a0d2bbad1b975ba985ec81397e2371a59b4923a9
+admin/testrepo-1:v8	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-1:v8	Copying blob sha256:52eb3c0b0fdc2f3d6bbd524378ae257e1e36f4eb4ec603eb98e447c6cfff30fe
+admin/testrepo-1:v8	time="2024-11-10T11:44:12Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-1/blobs/uploads/edfe4a27-f569-44bd-bc7d-46310a2e01a0?_state=5JoEE5aLjrwxsfdVfPf4rD_1OZuNeOAcXsM6xwmIMDp7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby0xIiwiVVVJRCI6ImVkZmU0YTI3LWY1NjktNDRiZC1iYzdkLTQ2MzEwYTJlMDFhMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMToyNzoyNy4yNzU1MDA4MjJaIn0%3D\": write tcp 172.17.0.2:44646->3.255.235.204:34034: write: broken pipe"
+admin/testrepo-3:v7	Image name: admin/testrepo-3:v7
+admin/testrepo-3:v7	Copying image with skopeo: from docker://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/admin/testrepo-3:v7 to docker://3.255.235.204:34034/admin/testrepo-3:v7
+admin/testrepo-3:v7	Getting image source signatures
+admin/testrepo-3:v7	Copying blob sha256:dd2eb0150a0bdcbf80378f47a55e9e5995096937911266dbec2e7354b150f4da
+admin/testrepo-3:v7	Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+admin/testrepo-3:v7	Copying blob sha256:9ac4ab1eb4c29d6cbc90670d08497a6703e7786e73575c1874dfefc05b98b997
+admin/testrepo-3:v7	time="2024-11-10T12:00:14Z" level=info msg="Reading blob body from https://aws-mke-msr-ubuntu2004-msr-lb-448d46d92d7a72db.elb.eu-west-1.amazonaws.com/v2/admin/testrepo-3/blobs/sha256:dd2eb0150a0bdcbf80378f47a55e9e5995096937911266dbec2e7354b150f4da failed (unexpected EOF), reconnecting after 3944449 bytes…"
+admin/testrepo-3:v7	time="2024-11-10T12:00:23Z" level=fatal msg="writing blob: Patch \"https://3.255.235.204:34034/v2/admin/testrepo-3/blobs/uploads/8a264147-7cce-4c40-bf82-5121ae4e41aa?_state=3Oo_sankG99W-tOTxpnTNbBZpejPcWiDXovkA3TAmWd7Ik5hbWUiOiJhZG1pbi90ZXN0cmVwby0zIiwiVVVJRCI6IjhhMjY0MTQ3LTdjY2UtNGM0MC1iZjgyLTUxMjFhZTRlNDFhYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNC0xMS0xMFQxMToxMDozMi4xNzczMTI2NTJaIn0%3D\": use of closed network connection"
