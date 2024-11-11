@@ -1,4 +1,0 @@
-Using the environment variables file .msr_data_migration.env.PSTEST
-
-Unable to connect to the server: dial tcp 3.251.230.235:6443: i/o timeout
-rethinkdb cli POD_NAME at the destination msr is not set. Please check your Kubernetes setup.
