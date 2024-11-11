@@ -106,9 +106,9 @@ KUBECONFIG=/config/kubeconfig #Kubeconfig for destination MSR. If script is exec
 DEST_MSR_URL=destination.msr.example.com:34034
 DEST_MSR_USERNAME=migration_user
 DEST_MSR_TOKEN=destination-token
-
 DEST_MSR_K8S_NAMESPACE=default
 
+# Other variables
 PARALLEL_PROCESS_COUNT=5
 TOKEN_LIMIT=50
 ```
